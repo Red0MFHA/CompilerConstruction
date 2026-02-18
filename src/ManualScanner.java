@@ -125,7 +125,27 @@ public class ManualScanner {
     // ════════════════════════════════════════════════════════════════════
     //  TOKEN DISPATCHER
     // ════════════════════════════════════════════════════════════════════
-
+    private Token scanBoolean(int sLin, int sCol) {
+    // Try to match "true" or "false"
+    String remaining = source.substring(pos);
+    
+    if (remaining.startsWith("true") && 
+        (pos + 4 >= source.length() || !isIdentChar(source.charAt(pos + 4)))) {
+        for (int i = 0; i < 4; i++) advance();
+        return new Token(TokenType.BOOLEAN, "true", sLin, sCol);
+    }
+    
+    if (remaining.startsWith("false") && 
+        (pos + 5 >= source.length() || !isIdentChar(source.charAt(pos + 5)))) {
+        for (int i = 0; i < 5; i++) advance();
+        return new Token(TokenType.BOOLEAN, "false", sLin, sCol);
+    }
+    
+    // Starts with 't' or 'f' but not a boolean → error
+    errHandler.reportInvalidChar(sLin, sCol, current());
+    advance();
+    return null;
+}
     private Token nextToken() {
         char c    = current();
         int  sLin = line;
@@ -155,7 +175,10 @@ public class ManualScanner {
         if (Character.isUpperCase(c)) {
             return scanIdentifier(sLin, sCol);
         }
-
+        //── 5. Boolean literals: true | false ────────────────────────────
+        if (c == 't' || c == 'f') {
+            return scanBoolean(sLin, sCol);
+        }
         // ── 6. Arithmetic: * / % (including **) ───────────────────────────
         if (c == '*' || c == '/' || c == '%') {
             return handleArithOp(sLin, sCol);
@@ -265,133 +288,15 @@ public class ManualScanner {
      *   - All other uppercase starts → IDENTIFIER
      */
     private Token scanIdentifier(int sLin, int sCol) {
-        StringBuilder sb = new StringBuilder();
-        DFAState st;
-
-        char first = advance();
-        sb.append(first);
-
-        // Set initial state
-        if      (first == 'T') st = DFAState.T_OR_IDENT;
-        else if (first == 'F') st = DFAState.F_OR_IDENT;
-        else                   st = DFAState.IDENT_FINAL;
-
-        // Walk the DFA
-        outer:
-        while (pos < source.length()) {
-            char c = current();
-
-            switch (st) {
-                // ── TRUE path: T → R → U → E ──────────────────────────
-                case T_OR_IDENT:
-                    if (c == 'R') {
-                        sb.append(advance());
-                        st = DFAState.TRUE_R;
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                case TRUE_R:
-                    if (c == 'U') {
-                        sb.append(advance());
-                        st = DFAState.TRUE_RU;
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                case TRUE_RU:
-                    if (c == 'E') {
-                        sb.append(advance());
-                        st = DFAState.BOOL_FINAL;
-                        break outer; // Complete TRUE
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                // ── FALSE path: F → A → L → S → E ─────────────────────
-                case F_OR_IDENT:
-                    if (c == 'A') {
-                        sb.append(advance());
-                        st = DFAState.FALSE_A;
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                case FALSE_A:
-                    if (c == 'L') {
-                        sb.append(advance());
-                        st = DFAState.FALSE_AL;
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                case FALSE_AL:
-                    if (c == 'S') {
-                        sb.append(advance());
-                        st = DFAState.FALSE_ALS;
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                case FALSE_ALS:
-                    if (c == 'E') {
-                        sb.append(advance());
-                        st = DFAState.BOOL_FINAL;
-                        break outer; // Complete FALSE
-                    } else if (isIdentChar(c)) {
-                        sb.append(advance());
-                        st = DFAState.IDENT_FINAL;
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                // ── Generic identifier ─────────────────────────────────
-                case IDENT_FINAL:
-                    if (isIdentChar(c)) {
-                        sb.append(advance());
-                    } else {
-                        break outer;
-                    }
-                    break;
-
-                default:
-                    break outer;
-            }
-        }
-
-        // Return BOOLEAN if we reached BOOL_FINAL
-        if (st == DFAState.BOOL_FINAL) {
-            return new Token(TokenType.BOOLEAN, sb.toString(), sLin, sCol);
-        }
-
-        // Otherwise IDENTIFIER
-        return new Token(TokenType.IDENTIFIER, sb.toString(), sLin, sCol);
+    StringBuilder sb = new StringBuilder();
+    sb.append(advance()); // First char [A-Z]
+    
+    while (pos < source.length() && isIdentChar(current())) {
+        sb.append(advance());
     }
+    
+    return new Token(TokenType.IDENTIFIER, sb.toString(), sLin, sCol);
+}
 
     // ════════════════════════════════════════════════════════════════════
     //  CATEGORY 3: SINGLE-LINE COMMENT
