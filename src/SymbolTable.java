@@ -66,6 +66,11 @@ public class SymbolTable {
     /** Number of distinct identifiers. */
     public int size() { return table.size(); }
 
+    /** Get all entries for iteration (used by main for reporting). */
+    public java.util.Collection<Entry> getAllEntries() {
+        return table.values();
+    }
+
     // ── Print ────────────────────────────────────────────────────────────
     public void print() {
         System.out.println("\n╔══════════════════════════════════════════════════════════════╗");

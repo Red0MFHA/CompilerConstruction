@@ -1,0 +1,77 @@
+## ═══════════════════════════════════════════════════════════
+## TEST 2: COMPLEX EXPRESSIONS
+## Nested operations, multiple operators, complex arithmetic
+## ═══════════════════════════════════════════════════════════
+
+## Complex arithmetic expressions
+Result1 = (A + B) * (C - D) / E;
+Result2 = ((X ** 2) + (Y ** 2));
+Result3 = (M * N) + (P / Q) - (R % S);
+
+## Nested parentheses
+Deep = ((((A + B) * C) - D) / E);
+Complex_calc = (A + (B * (C - (D / E))));
+
+## Mixed operators with precedence
+Expression1 = A + B * C - D / E;
+Expression2 = X ** Y + Z * W - V;
+Expression3 = (A + B) ** (C - D);
+
+## Complex relational expressions
+Comparison1 = ((X + Y) > (M - N)) && ((P * Q) <= (R / S));
+Comparison2 = ((A ** 2) >= 100) || ((B + C) < 50);
+Comparison3 = (X != Y) && (Y != Z) && (Z != X);
+
+## Complex logical expressions
+Logic1 = (A > B) && (C < D) || (E == F);
+Logic2 = !((X == Y) && (M != N));
+Logic3 = ((P <= Q) || (R >= S)) && !(T == U);
+
+## Chained assignments with operations
+Total = 0;
+Total += (A + B) * 2;
+Total -= (C - D) / 3;
+Total *= (E + F);
+Total /= (G - H);
+
+## Array access with complex indices
+Element1 = Array[(X + Y) * 2];
+Element2 = Matrix[Row * Cols + Col];
+Element3 = Data[(Index + 1) ** 2];
+
+## Increment/decrement in expressions
+Value1 = Counter++ + Offset;
+Value2 = --Index * Scale;
+Value3 = (++A) + (B--);
+
+## Scientific calculations
+Force = Mass * (Velocity ** 2);
+Energy = 0.5 * Mass * (Speed ** 2);
+Distance = (Initial_velocity * Time) + (0.5 * Acceleration * (Time ** 2));
+
+## Complex boolean expressions
+Is_valid = ((Age >= 18) && (Age <= 65)) || (Is_special == TRUE);
+Can_proceed = ((Score > 50) && (Attempts < 3)) || (Override == TRUE);
+Should_retry = ((Failures <= Max_retries) && (Time_elapsed < Timeout)) && (!Is_cancelled);
+
+## Bitwise-style operations (using arithmetic)
+Shifted_left = Value * (2 ** 3);
+Shifted_right = Value / (2 ** 2);
+Combined = (A * 256) + (B * 16) + C;
+
+## Nested increments and assignments
+X = Y++ + Z++;
+Result = (++A) * (--B) + (C++) - (D--);
+Final = ((X += 5) * (Y -= 3)) / (Z *= 2);
+
+## Very complex nested expression
+Ultimate = ((((A + B) ** 2) - ((C - D) ** 2)) / ((E * F) + (G / H))) >= ((I % J) * (K + L));
+
+## Multiple operations on same line
+X = 1; Y = 2; Z = X + Y;
+A += 10; B -= 5; C = A * B;
+
+## Expression with all operator types
+Mega_expression = ((A + B) * C) >= (D / E) && ((F % G) != 0) || !(H == I);
+
+## End of test2.lang

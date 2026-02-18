@@ -1,0 +1,96 @@
+## ════════════════════════════════════════════════════════════
+## CS4031 Compiler Construction - Scanner Test File
+## Tests all 7 token categories
+## ════════════════════════════════════════════════════════════
+
+## ─────────────────────────────────────────────────────────────
+## 1. INTEGER LITERALS
+## ─────────────────────────────────────────────────────────────
+Count = 42;
+Positive = +100;
+Negative = -567;
+Zero = 0;
+
+## ─────────────────────────────────────────────────────────────
+## 2. IDENTIFIERS (must start with uppercase)
+## ─────────────────────────────────────────────────────────────
+Variable_name = 10;
+Test123 = 20;
+X = 5;
+Total_sum_2024 = 999;
+
+## ─────────────────────────────────────────────────────────────
+## 4. FLOATING POINT LITERALS
+## ─────────────────────────────────────────────────────────────
+Pi = 3.14159;
+Float_val = -0.5;
+Positive_float = +2.718;
+
+## Floating point with exponent
+Avogadro = 6.022e23;
+Planck = 6.626e-34;
+Large = 1.5E10;
+Small = 2.0E-3;
+
+## ─────────────────────────────────────────────────────────────
+## 5. BOOLEAN LITERALS
+## ─────────────────────────────────────────────────────────────
+Flag = TRUE;
+Active = FALSE;
+Result = TRUE;
+
+## ─────────────────────────────────────────────────────────────
+## 6. OPERATORS
+## ─────────────────────────────────────────────────────────────
+
+## 6.1 Relational Operators
+(X == Y);
+(A != B);
+(M < N);
+(P <= Q);
+(R > S);
+(T >= U);
+
+## 6.2 Arithmetic Operators
+Sum = A + B;
+Diff = X - Y;
+Prod = M * N;
+Quot = P / Q;
+Mod = R % S;
+Power = Base ** Exp;
+
+## 6.3 Logical Operators
+Condition1 = (X > 0) && (Y < 10);
+Condition2 = (A == B) || (C != D);
+Not_flag = !Flag;
+
+## 6.4 Assignment Operators
+Total = 100;
+Total += 50;
+Total -= 20;
+Total *= 2;
+Total /= 4;
+
+## 6.5 Increment/Decrement Operators
+Counter++;
+Index--;
+++Value;
+--Number;
+
+## ─────────────────────────────────────────────────────────────
+## 7. PUNCTUATORS
+## ─────────────────────────────────────────────────────────────
+Array[5];
+Matrix[10];
+{A, B, C};
+(X + Y) * Z;
+List: [1, 2, 3];
+
+## ─────────────────────────────────────────────────────────────
+## COMPLEX EXPRESSIONS (combining multiple token types)
+## ─────────────────────────────────────────────────────────────
+Result = (A + B) * (C - D) / E;
+Final = ((X ** 2) + (Y ** 2)) >= 100;
+Status = (Count > 0) && (Flag == TRUE) || (Index < -5);
+
+## End of test file

@@ -1,0 +1,1863 @@
+══════════════════════════════════════════════════════════════
+        CS4031 Manual Scanner - All Test Results
+══════════════════════════════════════════════════════════════
+
+------------------------------------------------------------
+Reading from: D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test1.lang
+------------------------------------------------------------
+
+TOKENS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                        TOKEN STREAM                         ║
+╠══════════════════════════════════════════════════════════════╣
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 1, Col: 1>
+  <COMMENT, "## TEST 1: ALL VALID TOKENS
+", Line: 2, Col: 1>
+  <COMMENT, "## Comprehensive test of all 7 token categories
+", Line: 3, Col: 1>
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 4, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 6, Col: 1>
+  <COMMENT, "## Category 1: INTEGER LITERALS
+", Line: 7, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 8, Col: 1>
+  <IDENTIFIER, "Simple_int", Line: 9, Col: 1>
+  <ASSIGN_OP, "=", Line: 9, Col: 12>
+  <INTEGER, "42", Line: 9, Col: 14>
+  <PUNCTUATOR, ";", Line: 9, Col: 16>
+  <IDENTIFIER, "Positive_int", Line: 10, Col: 1>
+  <ASSIGN_OP, "=", Line: 10, Col: 14>
+  <INTEGER, "+100", Line: 10, Col: 16>
+  <PUNCTUATOR, ";", Line: 10, Col: 20>
+  <IDENTIFIER, "Negative_int", Line: 11, Col: 1>
+  <ASSIGN_OP, "=", Line: 11, Col: 14>
+  <INTEGER, "-567", Line: 11, Col: 16>
+  <PUNCTUATOR, ";", Line: 11, Col: 20>
+  <IDENTIFIER, "Zero", Line: 12, Col: 1>
+  <ASSIGN_OP, "=", Line: 12, Col: 6>
+  <INTEGER, "0", Line: 12, Col: 8>
+  <PUNCTUATOR, ";", Line: 12, Col: 9>
+  <IDENTIFIER, "Large_number", Line: 13, Col: 1>
+  <ASSIGN_OP, "=", Line: 13, Col: 14>
+  <INTEGER, "999999", Line: 13, Col: 16>
+  <PUNCTUATOR, ";", Line: 13, Col: 22>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 15, Col: 1>
+  <COMMENT, "## Category 2: IDENTIFIERS
+", Line: 16, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 17, Col: 1>
+  <IDENTIFIER, "Counter", Line: 18, Col: 1>
+  <ASSIGN_OP, "=", Line: 18, Col: 9>
+  <INTEGER, "1", Line: 18, Col: 11>
+  <PUNCTUATOR, ";", Line: 18, Col: 12>
+  <IDENTIFIER, "Total_sum", Line: 19, Col: 1>
+  <ASSIGN_OP, "=", Line: 19, Col: 11>
+  <INTEGER, "100", Line: 19, Col: 13>
+  <PUNCTUATOR, ";", Line: 19, Col: 16>
+  <IDENTIFIER, "Variable_name_123", Line: 20, Col: 1>
+  <ASSIGN_OP, "=", Line: 20, Col: 19>
+  <INTEGER, "50", Line: 20, Col: 21>
+  <PUNCTUATOR, ";", Line: 20, Col: 23>
+  <IDENTIFIER, "X", Line: 21, Col: 1>
+  <ASSIGN_OP, "=", Line: 21, Col: 3>
+  <INTEGER, "10", Line: 21, Col: 5>
+  <PUNCTUATOR, ";", Line: 21, Col: 7>
+  <IDENTIFIER, "Y", Line: 22, Col: 1>
+  <ASSIGN_OP, "=", Line: 22, Col: 3>
+  <INTEGER, "20", Line: 22, Col: 5>
+  <PUNCTUATOR, ";", Line: 22, Col: 7>
+  <IDENTIFIER, "Z", Line: 23, Col: 1>
+  <ASSIGN_OP, "=", Line: 23, Col: 3>
+  <INTEGER, "30", Line: 23, Col: 5>
+  <PUNCTUATOR, ";", Line: 23, Col: 7>
+  <IDENTIFIER, "Test_var", Line: 24, Col: 1>
+  <ASSIGN_OP, "=", Line: 24, Col: 10>
+  <INTEGER, "999", Line: 24, Col: 12>
+  <PUNCTUATOR, ";", Line: 24, Col: 15>
+  <IDENTIFIER, "My_identifier", Line: 25, Col: 1>
+  <ASSIGN_OP, "=", Line: 25, Col: 15>
+  <INTEGER, "0", Line: 25, Col: 17>
+  <PUNCTUATOR, ";", Line: 25, Col: 18>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 27, Col: 1>
+  <COMMENT, "## Category 4: FLOATING POINT LITERALS
+", Line: 28, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 29, Col: 1>
+  <IDENTIFIER, "Pi", Line: 30, Col: 1>
+  <ASSIGN_OP, "=", Line: 30, Col: 4>
+  <FLOAT, "3.14159", Line: 30, Col: 6>
+  <PUNCTUATOR, ";", Line: 30, Col: 13>
+  <IDENTIFIER, "Euler", Line: 31, Col: 1>
+  <ASSIGN_OP, "=", Line: 31, Col: 7>
+  <FLOAT, "2.71828", Line: 31, Col: 9>
+  <PUNCTUATOR, ";", Line: 31, Col: 16>
+  <IDENTIFIER, "Negative_float", Line: 32, Col: 1>
+  <ASSIGN_OP, "=", Line: 32, Col: 16>
+  <FLOAT, "-0.5", Line: 32, Col: 18>
+  <PUNCTUATOR, ";", Line: 32, Col: 22>
+  <IDENTIFIER, "Positive_float", Line: 33, Col: 1>
+  <ASSIGN_OP, "=", Line: 33, Col: 16>
+  <FLOAT, "+1.618", Line: 33, Col: 18>
+  <PUNCTUATOR, ";", Line: 33, Col: 24>
+  <IDENTIFIER, "Small_decimal", Line: 34, Col: 1>
+  <ASSIGN_OP, "=", Line: 34, Col: 15>
+  <FLOAT, "0.001", Line: 34, Col: 17>
+  <PUNCTUATOR, ";", Line: 34, Col: 22>
+  <COMMENT, "## Floating point with exponents
+", Line: 36, Col: 1>
+  <IDENTIFIER, "Speed_of_light", Line: 37, Col: 1>
+  <ASSIGN_OP, "=", Line: 37, Col: 16>
+  <FLOAT_EXP, "3.0e8", Line: 37, Col: 18>
+  <PUNCTUATOR, ";", Line: 37, Col: 23>
+  <IDENTIFIER, "Avogadro", Line: 38, Col: 1>
+  <ASSIGN_OP, "=", Line: 38, Col: 10>
+  <FLOAT_EXP, "6.022e23", Line: 38, Col: 12>
+  <PUNCTUATOR, ";", Line: 38, Col: 20>
+  <IDENTIFIER, "Planck_constant", Line: 39, Col: 1>
+  <ASSIGN_OP, "=", Line: 39, Col: 17>
+  <FLOAT_EXP, "6.626e-34", Line: 39, Col: 19>
+  <PUNCTUATOR, ";", Line: 39, Col: 28>
+  <IDENTIFIER, "Large_num", Line: 40, Col: 1>
+  <ASSIGN_OP, "=", Line: 40, Col: 11>
+  <FLOAT_EXP, "1.5E10", Line: 40, Col: 13>
+  <PUNCTUATOR, ";", Line: 40, Col: 19>
+  <IDENTIFIER, "Tiny_num", Line: 41, Col: 1>
+  <ASSIGN_OP, "=", Line: 41, Col: 10>
+  <FLOAT_EXP, "2.5E-20", Line: 41, Col: 12>
+  <PUNCTUATOR, ";", Line: 41, Col: 19>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 43, Col: 1>
+  <COMMENT, "## Category 5: BOOLEAN LITERALS
+", Line: 44, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 45, Col: 1>
+  <IDENTIFIER, "Is_active", Line: 46, Col: 1>
+  <ASSIGN_OP, "=", Line: 46, Col: 11>
+  <BOOLEAN, "TRUE", Line: 46, Col: 13>
+  <PUNCTUATOR, ";", Line: 46, Col: 17>
+  <IDENTIFIER, "Is_done", Line: 47, Col: 1>
+  <ASSIGN_OP, "=", Line: 47, Col: 9>
+  <BOOLEAN, "FALSE", Line: 47, Col: 11>
+  <PUNCTUATOR, ";", Line: 47, Col: 16>
+  <IDENTIFIER, "Flag", Line: 48, Col: 1>
+  <ASSIGN_OP, "=", Line: 48, Col: 6>
+  <BOOLEAN, "TRUE", Line: 48, Col: 8>
+  <PUNCTUATOR, ";", Line: 48, Col: 12>
+  <IDENTIFIER, "Status", Line: 49, Col: 1>
+  <ASSIGN_OP, "=", Line: 49, Col: 8>
+  <BOOLEAN, "FALSE", Line: 49, Col: 10>
+  <PUNCTUATOR, ";", Line: 49, Col: 15>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 51, Col: 1>
+  <COMMENT, "## Category 6.1: RELATIONAL OPERATORS
+", Line: 52, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 53, Col: 1>
+  <IDENTIFIER, "Result1", Line: 54, Col: 1>
+  <ASSIGN_OP, "=", Line: 54, Col: 9>
+  <PUNCTUATOR, "(", Line: 54, Col: 11>
+  <IDENTIFIER, "X", Line: 54, Col: 12>
+  <REL_OP, "==", Line: 54, Col: 14>
+  <IDENTIFIER, "Y", Line: 54, Col: 17>
+  <PUNCTUATOR, ")", Line: 54, Col: 18>
+  <PUNCTUATOR, ";", Line: 54, Col: 19>
+  <IDENTIFIER, "Result2", Line: 55, Col: 1>
+  <ASSIGN_OP, "=", Line: 55, Col: 9>
+  <PUNCTUATOR, "(", Line: 55, Col: 11>
+  <IDENTIFIER, "A", Line: 55, Col: 12>
+  <REL_OP, "!=", Line: 55, Col: 14>
+  <IDENTIFIER, "B", Line: 55, Col: 17>
+  <PUNCTUATOR, ")", Line: 55, Col: 18>
+  <PUNCTUATOR, ";", Line: 55, Col: 19>
+  <IDENTIFIER, "Result3", Line: 56, Col: 1>
+  <ASSIGN_OP, "=", Line: 56, Col: 9>
+  <PUNCTUATOR, "(", Line: 56, Col: 11>
+  <IDENTIFIER, "M", Line: 56, Col: 12>
+  <REL_OP, "<", Line: 56, Col: 14>
+  <IDENTIFIER, "N", Line: 56, Col: 16>
+  <PUNCTUATOR, ")", Line: 56, Col: 17>
+  <PUNCTUATOR, ";", Line: 56, Col: 18>
+  <IDENTIFIER, "Result4", Line: 57, Col: 1>
+  <ASSIGN_OP, "=", Line: 57, Col: 9>
+  <PUNCTUATOR, "(", Line: 57, Col: 11>
+  <IDENTIFIER, "P", Line: 57, Col: 12>
+  <REL_OP, "<=", Line: 57, Col: 14>
+  <IDENTIFIER, "Q", Line: 57, Col: 17>
+  <PUNCTUATOR, ")", Line: 57, Col: 18>
+  <PUNCTUATOR, ";", Line: 57, Col: 19>
+  <IDENTIFIER, "Result5", Line: 58, Col: 1>
+  <ASSIGN_OP, "=", Line: 58, Col: 9>
+  <PUNCTUATOR, "(", Line: 58, Col: 11>
+  <IDENTIFIER, "R", Line: 58, Col: 12>
+  <REL_OP, ">", Line: 58, Col: 14>
+  <IDENTIFIER, "S", Line: 58, Col: 16>
+  <PUNCTUATOR, ")", Line: 58, Col: 17>
+  <PUNCTUATOR, ";", Line: 58, Col: 18>
+  <IDENTIFIER, "Result6", Line: 59, Col: 1>
+  <ASSIGN_OP, "=", Line: 59, Col: 9>
+  <PUNCTUATOR, "(", Line: 59, Col: 11>
+  <IDENTIFIER, "T", Line: 59, Col: 12>
+  <REL_OP, ">=", Line: 59, Col: 14>
+  <IDENTIFIER, "U", Line: 59, Col: 17>
+  <PUNCTUATOR, ")", Line: 59, Col: 18>
+  <PUNCTUATOR, ";", Line: 59, Col: 19>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 61, Col: 1>
+  <COMMENT, "## Category 6.2: ARITHMETIC OPERATORS
+", Line: 62, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 63, Col: 1>
+  <IDENTIFIER, "Sum", Line: 64, Col: 1>
+  <ASSIGN_OP, "=", Line: 64, Col: 5>
+  <IDENTIFIER, "A", Line: 64, Col: 7>
+  <ARITH_OP, "+", Line: 64, Col: 9>
+  <IDENTIFIER, "B", Line: 64, Col: 11>
+  <PUNCTUATOR, ";", Line: 64, Col: 12>
+  <IDENTIFIER, "Difference", Line: 65, Col: 1>
+  <ASSIGN_OP, "=", Line: 65, Col: 12>
+  <IDENTIFIER, "X", Line: 65, Col: 14>
+  <ARITH_OP, "-", Line: 65, Col: 16>
+  <IDENTIFIER, "Y", Line: 65, Col: 18>
+  <PUNCTUATOR, ";", Line: 65, Col: 19>
+  <IDENTIFIER, "Product", Line: 66, Col: 1>
+  <ASSIGN_OP, "=", Line: 66, Col: 9>
+  <IDENTIFIER, "M", Line: 66, Col: 11>
+  <ARITH_OP, "*", Line: 66, Col: 13>
+  <IDENTIFIER, "N", Line: 66, Col: 15>
+  <PUNCTUATOR, ";", Line: 66, Col: 16>
+  <IDENTIFIER, "Quotient", Line: 67, Col: 1>
+  <ASSIGN_OP, "=", Line: 67, Col: 10>
+  <IDENTIFIER, "P", Line: 67, Col: 12>
+  <ARITH_OP, "/", Line: 67, Col: 14>
+  <IDENTIFIER, "Q", Line: 67, Col: 16>
+  <PUNCTUATOR, ";", Line: 67, Col: 17>
+  <IDENTIFIER, "Remainder", Line: 68, Col: 1>
+  <ASSIGN_OP, "=", Line: 68, Col: 11>
+  <IDENTIFIER, "R", Line: 68, Col: 13>
+  <ARITH_OP, "%", Line: 68, Col: 15>
+  <IDENTIFIER, "S", Line: 68, Col: 17>
+  <PUNCTUATOR, ";", Line: 68, Col: 18>
+  <IDENTIFIER, "Power", Line: 69, Col: 1>
+  <ASSIGN_OP, "=", Line: 69, Col: 7>
+  <IDENTIFIER, "Base", Line: 69, Col: 9>
+  <ARITH_OP, "**", Line: 69, Col: 14>
+  <IDENTIFIER, "Exponent", Line: 69, Col: 17>
+  <PUNCTUATOR, ";", Line: 69, Col: 25>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 71, Col: 1>
+  <COMMENT, "## Category 6.3: LOGICAL OPERATORS
+", Line: 72, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 73, Col: 1>
+  <IDENTIFIER, "And_result", Line: 74, Col: 1>
+  <ASSIGN_OP, "=", Line: 74, Col: 12>
+  <PUNCTUATOR, "(", Line: 74, Col: 14>
+  <IDENTIFIER, "X", Line: 74, Col: 15>
+  <REL_OP, ">", Line: 74, Col: 17>
+  <INTEGER, "0", Line: 74, Col: 19>
+  <PUNCTUATOR, ")", Line: 74, Col: 20>
+  <LOGICAL_OP, "&&", Line: 74, Col: 22>
+  <PUNCTUATOR, "(", Line: 74, Col: 25>
+  <IDENTIFIER, "Y", Line: 74, Col: 26>
+  <REL_OP, "<", Line: 74, Col: 28>
+  <INTEGER, "10", Line: 74, Col: 30>
+  <PUNCTUATOR, ")", Line: 74, Col: 32>
+  <PUNCTUATOR, ";", Line: 74, Col: 33>
+  <IDENTIFIER, "Or_result", Line: 75, Col: 1>
+  <ASSIGN_OP, "=", Line: 75, Col: 11>
+  <PUNCTUATOR, "(", Line: 75, Col: 13>
+  <IDENTIFIER, "A", Line: 75, Col: 14>
+  <REL_OP, "==", Line: 75, Col: 16>
+  <IDENTIFIER, "B", Line: 75, Col: 19>
+  <PUNCTUATOR, ")", Line: 75, Col: 20>
+  <LOGICAL_OP, "||", Line: 75, Col: 22>
+  <PUNCTUATOR, "(", Line: 75, Col: 25>
+  <IDENTIFIER, "C", Line: 75, Col: 26>
+  <REL_OP, "!=", Line: 75, Col: 28>
+  <IDENTIFIER, "D", Line: 75, Col: 31>
+  <PUNCTUATOR, ")", Line: 75, Col: 32>
+  <PUNCTUATOR, ";", Line: 75, Col: 33>
+  <IDENTIFIER, "Not_result", Line: 76, Col: 1>
+  <ASSIGN_OP, "=", Line: 76, Col: 12>
+  <LOGICAL_OP, "!", Line: 76, Col: 14>
+  <IDENTIFIER, "Flag", Line: 76, Col: 15>
+  <PUNCTUATOR, ";", Line: 76, Col: 19>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 78, Col: 1>
+  <COMMENT, "## Category 6.4: ASSIGNMENT OPERATORS
+", Line: 79, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 80, Col: 1>
+  <IDENTIFIER, "Value", Line: 81, Col: 1>
+  <ASSIGN_OP, "=", Line: 81, Col: 7>
+  <INTEGER, "100", Line: 81, Col: 9>
+  <PUNCTUATOR, ";", Line: 81, Col: 12>
+  <IDENTIFIER, "Value", Line: 82, Col: 1>
+  <ASSIGN_OP, "+=", Line: 82, Col: 7>
+  <INTEGER, "50", Line: 82, Col: 10>
+  <PUNCTUATOR, ";", Line: 82, Col: 12>
+  <IDENTIFIER, "Value", Line: 83, Col: 1>
+  <ASSIGN_OP, "-=", Line: 83, Col: 7>
+  <INTEGER, "20", Line: 83, Col: 10>
+  <PUNCTUATOR, ";", Line: 83, Col: 12>
+  <IDENTIFIER, "Value", Line: 84, Col: 1>
+  <ASSIGN_OP, "*=", Line: 84, Col: 7>
+  <INTEGER, "2", Line: 84, Col: 10>
+  <PUNCTUATOR, ";", Line: 84, Col: 11>
+  <IDENTIFIER, "Value", Line: 85, Col: 1>
+  <ASSIGN_OP, "/=", Line: 85, Col: 7>
+  <INTEGER, "4", Line: 85, Col: 10>
+  <PUNCTUATOR, ";", Line: 85, Col: 11>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 87, Col: 1>
+  <COMMENT, "## Category 6.5: INCREMENT/DECREMENT OPERATORS
+", Line: 88, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 89, Col: 1>
+  <IDENTIFIER, "Counter", Line: 90, Col: 1>
+  <INC_DEC, "++", Line: 90, Col: 8>
+  <PUNCTUATOR, ";", Line: 90, Col: 10>
+  <IDENTIFIER, "Index", Line: 91, Col: 1>
+  <INC_DEC, "--", Line: 91, Col: 6>
+  <PUNCTUATOR, ";", Line: 91, Col: 8>
+  <INC_DEC, "++", Line: 92, Col: 1>
+  <IDENTIFIER, "Prefix_inc", Line: 92, Col: 3>
+  <PUNCTUATOR, ";", Line: 92, Col: 13>
+  <INC_DEC, "--", Line: 93, Col: 1>
+  <IDENTIFIER, "Prefix_dec", Line: 93, Col: 3>
+  <PUNCTUATOR, ";", Line: 93, Col: 13>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 95, Col: 1>
+  <COMMENT, "## Category 7: PUNCTUATORS
+", Line: 96, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 97, Col: 1>
+  <IDENTIFIER, "Array", Line: 98, Col: 1>
+  <PUNCTUATOR, "[", Line: 98, Col: 6>
+  <INTEGER, "0", Line: 98, Col: 7>
+  <PUNCTUATOR, "]", Line: 98, Col: 8>
+  <PUNCTUATOR, ";", Line: 98, Col: 9>
+  <IDENTIFIER, "Matrix", Line: 99, Col: 1>
+  <PUNCTUATOR, "[", Line: 99, Col: 7>
+  <INTEGER, "5", Line: 99, Col: 8>
+  <PUNCTUATOR, "]", Line: 99, Col: 9>
+  <PUNCTUATOR, ";", Line: 99, Col: 10>
+  <IDENTIFIER, "List", Line: 100, Col: 1>
+  <PUNCTUATOR, "[", Line: 100, Col: 5>
+  <INTEGER, "10", Line: 100, Col: 6>
+  <PUNCTUATOR, "]", Line: 100, Col: 8>
+  <PUNCTUATOR, ";", Line: 100, Col: 9>
+  <PUNCTUATOR, "{", Line: 101, Col: 1>
+  <IDENTIFIER, "A", Line: 101, Col: 2>
+  <PUNCTUATOR, ",", Line: 101, Col: 3>
+  <IDENTIFIER, "B", Line: 101, Col: 5>
+  <PUNCTUATOR, ",", Line: 101, Col: 6>
+  <IDENTIFIER, "C", Line: 101, Col: 8>
+  <PUNCTUATOR, "}", Line: 101, Col: 9>
+  <PUNCTUATOR, ";", Line: 101, Col: 10>
+  <PUNCTUATOR, "(", Line: 102, Col: 1>
+  <IDENTIFIER, "X", Line: 102, Col: 2>
+  <PUNCTUATOR, ",", Line: 102, Col: 3>
+  <IDENTIFIER, "Y", Line: 102, Col: 5>
+  <PUNCTUATOR, ",", Line: 102, Col: 6>
+  <IDENTIFIER, "Z", Line: 102, Col: 8>
+  <PUNCTUATOR, ")", Line: 102, Col: 9>
+  <PUNCTUATOR, ";", Line: 102, Col: 10>
+  <IDENTIFIER, "Group", Line: 103, Col: 1>
+  <PUNCTUATOR, ":", Line: 103, Col: 6>
+  <PUNCTUATOR, "[", Line: 103, Col: 8>
+  <INTEGER, "1", Line: 103, Col: 9>
+  <PUNCTUATOR, ",", Line: 103, Col: 10>
+  <INTEGER, "2", Line: 103, Col: 12>
+  <PUNCTUATOR, ",", Line: 103, Col: 13>
+  <INTEGER, "3", Line: 103, Col: 15>
+  <PUNCTUATOR, "]", Line: 103, Col: 16>
+  <PUNCTUATOR, ";", Line: 103, Col: 17>
+  <COMMENT, "## End of test1.lang
+", Line: 105, Col: 1>
+  <EOF, "<EOF>", Line: 106, Col: 1>
+╚══════════════════════════════════════════════════════════════╝
+
+
+STATISTICS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                         STATISTICS                          ║
+╠══════════════════════════════════════════════════════════════╣
+  Total tokens            : 335
+  Lines processed         : 106
+  Comments removed        : 36
+  Unique identifiers      : 64
+  Lexical errors          : 0
+
+  Token breakdown:
+  Type                  Count
+  ──────────────────────────────
+  IDENTIFIER            92
+  INTEGER               26
+  FLOAT                 5
+  FLOAT_EXP             5
+  BOOLEAN               4
+  ARITH_OP              6
+  REL_OP                10
+  LOGICAL_OP            3
+  ASSIGN_OP             47
+  INC_DEC               4
+  PUNCTUATOR            96
+  COMMENT               36
+  EOF                   1
+╚══════════════════════════════════════════════════════════════╝
+
+
+SYMBOL TABLE:
+SymbolTable@776ec8df
+
+ERROR REPORT:
+ErrorHandler@4eec7777
+
+
+
+------------------------------------------------------------
+Reading from: D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test2.lang
+------------------------------------------------------------
+
+TOKENS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                        TOKEN STREAM                         ║
+╠══════════════════════════════════════════════════════════════╣
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 1, Col: 1>
+  <COMMENT, "## TEST 2: COMPLEX EXPRESSIONS
+", Line: 2, Col: 1>
+  <COMMENT, "## Nested operations, multiple operators, complex arithmetic
+", Line: 3, Col: 1>
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 4, Col: 1>
+  <COMMENT, "## Complex arithmetic expressions
+", Line: 6, Col: 1>
+  <IDENTIFIER, "Result1", Line: 7, Col: 1>
+  <ASSIGN_OP, "=", Line: 7, Col: 9>
+  <PUNCTUATOR, "(", Line: 7, Col: 11>
+  <IDENTIFIER, "A", Line: 7, Col: 12>
+  <ARITH_OP, "+", Line: 7, Col: 14>
+  <IDENTIFIER, "B", Line: 7, Col: 16>
+  <PUNCTUATOR, ")", Line: 7, Col: 17>
+  <ARITH_OP, "*", Line: 7, Col: 19>
+  <PUNCTUATOR, "(", Line: 7, Col: 21>
+  <IDENTIFIER, "C", Line: 7, Col: 22>
+  <ARITH_OP, "-", Line: 7, Col: 24>
+  <IDENTIFIER, "D", Line: 7, Col: 26>
+  <PUNCTUATOR, ")", Line: 7, Col: 27>
+  <ARITH_OP, "/", Line: 7, Col: 29>
+  <IDENTIFIER, "E", Line: 7, Col: 31>
+  <PUNCTUATOR, ";", Line: 7, Col: 32>
+  <IDENTIFIER, "Result2", Line: 8, Col: 1>
+  <ASSIGN_OP, "=", Line: 8, Col: 9>
+  <PUNCTUATOR, "(", Line: 8, Col: 11>
+  <PUNCTUATOR, "(", Line: 8, Col: 12>
+  <IDENTIFIER, "X", Line: 8, Col: 13>
+  <ARITH_OP, "**", Line: 8, Col: 15>
+  <INTEGER, "2", Line: 8, Col: 18>
+  <PUNCTUATOR, ")", Line: 8, Col: 19>
+  <ARITH_OP, "+", Line: 8, Col: 21>
+  <PUNCTUATOR, "(", Line: 8, Col: 23>
+  <IDENTIFIER, "Y", Line: 8, Col: 24>
+  <ARITH_OP, "**", Line: 8, Col: 26>
+  <INTEGER, "2", Line: 8, Col: 29>
+  <PUNCTUATOR, ")", Line: 8, Col: 30>
+  <PUNCTUATOR, ")", Line: 8, Col: 31>
+  <PUNCTUATOR, ";", Line: 8, Col: 32>
+  <IDENTIFIER, "Result3", Line: 9, Col: 1>
+  <ASSIGN_OP, "=", Line: 9, Col: 9>
+  <PUNCTUATOR, "(", Line: 9, Col: 11>
+  <IDENTIFIER, "M", Line: 9, Col: 12>
+  <ARITH_OP, "*", Line: 9, Col: 14>
+  <IDENTIFIER, "N", Line: 9, Col: 16>
+  <PUNCTUATOR, ")", Line: 9, Col: 17>
+  <ARITH_OP, "+", Line: 9, Col: 19>
+  <PUNCTUATOR, "(", Line: 9, Col: 21>
+  <IDENTIFIER, "P", Line: 9, Col: 22>
+  <ARITH_OP, "/", Line: 9, Col: 24>
+  <IDENTIFIER, "Q", Line: 9, Col: 26>
+  <PUNCTUATOR, ")", Line: 9, Col: 27>
+  <ARITH_OP, "-", Line: 9, Col: 29>
+  <PUNCTUATOR, "(", Line: 9, Col: 31>
+  <IDENTIFIER, "R", Line: 9, Col: 32>
+  <ARITH_OP, "%", Line: 9, Col: 34>
+  <IDENTIFIER, "S", Line: 9, Col: 36>
+  <PUNCTUATOR, ")", Line: 9, Col: 37>
+  <PUNCTUATOR, ";", Line: 9, Col: 38>
+  <COMMENT, "## Nested parentheses
+", Line: 11, Col: 1>
+  <IDENTIFIER, "Deep", Line: 12, Col: 1>
+  <ASSIGN_OP, "=", Line: 12, Col: 6>
+  <PUNCTUATOR, "(", Line: 12, Col: 8>
+  <PUNCTUATOR, "(", Line: 12, Col: 9>
+  <PUNCTUATOR, "(", Line: 12, Col: 10>
+  <PUNCTUATOR, "(", Line: 12, Col: 11>
+  <IDENTIFIER, "A", Line: 12, Col: 12>
+  <ARITH_OP, "+", Line: 12, Col: 14>
+  <IDENTIFIER, "B", Line: 12, Col: 16>
+  <PUNCTUATOR, ")", Line: 12, Col: 17>
+  <ARITH_OP, "*", Line: 12, Col: 19>
+  <IDENTIFIER, "C", Line: 12, Col: 21>
+  <PUNCTUATOR, ")", Line: 12, Col: 22>
+  <ARITH_OP, "-", Line: 12, Col: 24>
+  <IDENTIFIER, "D", Line: 12, Col: 26>
+  <PUNCTUATOR, ")", Line: 12, Col: 27>
+  <ARITH_OP, "/", Line: 12, Col: 29>
+  <IDENTIFIER, "E", Line: 12, Col: 31>
+  <PUNCTUATOR, ")", Line: 12, Col: 32>
+  <PUNCTUATOR, ";", Line: 12, Col: 33>
+  <IDENTIFIER, "Complex_calc", Line: 13, Col: 1>
+  <ASSIGN_OP, "=", Line: 13, Col: 14>
+  <PUNCTUATOR, "(", Line: 13, Col: 16>
+  <IDENTIFIER, "A", Line: 13, Col: 17>
+  <ARITH_OP, "+", Line: 13, Col: 19>
+  <PUNCTUATOR, "(", Line: 13, Col: 21>
+  <IDENTIFIER, "B", Line: 13, Col: 22>
+  <ARITH_OP, "*", Line: 13, Col: 24>
+  <PUNCTUATOR, "(", Line: 13, Col: 26>
+  <IDENTIFIER, "C", Line: 13, Col: 27>
+  <ARITH_OP, "-", Line: 13, Col: 29>
+  <PUNCTUATOR, "(", Line: 13, Col: 31>
+  <IDENTIFIER, "D", Line: 13, Col: 32>
+  <ARITH_OP, "/", Line: 13, Col: 34>
+  <IDENTIFIER, "E", Line: 13, Col: 36>
+  <PUNCTUATOR, ")", Line: 13, Col: 37>
+  <PUNCTUATOR, ")", Line: 13, Col: 38>
+  <PUNCTUATOR, ")", Line: 13, Col: 39>
+  <PUNCTUATOR, ")", Line: 13, Col: 40>
+  <PUNCTUATOR, ";", Line: 13, Col: 41>
+  <COMMENT, "## Mixed operators with precedence
+", Line: 15, Col: 1>
+  <IDENTIFIER, "Expression1", Line: 16, Col: 1>
+  <ASSIGN_OP, "=", Line: 16, Col: 13>
+  <IDENTIFIER, "A", Line: 16, Col: 15>
+  <ARITH_OP, "+", Line: 16, Col: 17>
+  <IDENTIFIER, "B", Line: 16, Col: 19>
+  <ARITH_OP, "*", Line: 16, Col: 21>
+  <IDENTIFIER, "C", Line: 16, Col: 23>
+  <ARITH_OP, "-", Line: 16, Col: 25>
+  <IDENTIFIER, "D", Line: 16, Col: 27>
+  <ARITH_OP, "/", Line: 16, Col: 29>
+  <IDENTIFIER, "E", Line: 16, Col: 31>
+  <PUNCTUATOR, ";", Line: 16, Col: 32>
+  <IDENTIFIER, "Expression2", Line: 17, Col: 1>
+  <ASSIGN_OP, "=", Line: 17, Col: 13>
+  <IDENTIFIER, "X", Line: 17, Col: 15>
+  <ARITH_OP, "**", Line: 17, Col: 17>
+  <IDENTIFIER, "Y", Line: 17, Col: 20>
+  <ARITH_OP, "+", Line: 17, Col: 22>
+  <IDENTIFIER, "Z", Line: 17, Col: 24>
+  <ARITH_OP, "*", Line: 17, Col: 26>
+  <IDENTIFIER, "W", Line: 17, Col: 28>
+  <ARITH_OP, "-", Line: 17, Col: 30>
+  <IDENTIFIER, "V", Line: 17, Col: 32>
+  <PUNCTUATOR, ";", Line: 17, Col: 33>
+  <IDENTIFIER, "Expression3", Line: 18, Col: 1>
+  <ASSIGN_OP, "=", Line: 18, Col: 13>
+  <PUNCTUATOR, "(", Line: 18, Col: 15>
+  <IDENTIFIER, "A", Line: 18, Col: 16>
+  <ARITH_OP, "+", Line: 18, Col: 18>
+  <IDENTIFIER, "B", Line: 18, Col: 20>
+  <PUNCTUATOR, ")", Line: 18, Col: 21>
+  <ARITH_OP, "**", Line: 18, Col: 23>
+  <PUNCTUATOR, "(", Line: 18, Col: 26>
+  <IDENTIFIER, "C", Line: 18, Col: 27>
+  <ARITH_OP, "-", Line: 18, Col: 29>
+  <IDENTIFIER, "D", Line: 18, Col: 31>
+  <PUNCTUATOR, ")", Line: 18, Col: 32>
+  <PUNCTUATOR, ";", Line: 18, Col: 33>
+  <COMMENT, "## Complex relational expressions
+", Line: 20, Col: 1>
+  <IDENTIFIER, "Comparison1", Line: 21, Col: 1>
+  <ASSIGN_OP, "=", Line: 21, Col: 13>
+  <PUNCTUATOR, "(", Line: 21, Col: 15>
+  <PUNCTUATOR, "(", Line: 21, Col: 16>
+  <IDENTIFIER, "X", Line: 21, Col: 17>
+  <ARITH_OP, "+", Line: 21, Col: 19>
+  <IDENTIFIER, "Y", Line: 21, Col: 21>
+  <PUNCTUATOR, ")", Line: 21, Col: 22>
+  <REL_OP, ">", Line: 21, Col: 24>
+  <PUNCTUATOR, "(", Line: 21, Col: 26>
+  <IDENTIFIER, "M", Line: 21, Col: 27>
+  <ARITH_OP, "-", Line: 21, Col: 29>
+  <IDENTIFIER, "N", Line: 21, Col: 31>
+  <PUNCTUATOR, ")", Line: 21, Col: 32>
+  <PUNCTUATOR, ")", Line: 21, Col: 33>
+  <LOGICAL_OP, "&&", Line: 21, Col: 35>
+  <PUNCTUATOR, "(", Line: 21, Col: 38>
+  <PUNCTUATOR, "(", Line: 21, Col: 39>
+  <IDENTIFIER, "P", Line: 21, Col: 40>
+  <ARITH_OP, "*", Line: 21, Col: 42>
+  <IDENTIFIER, "Q", Line: 21, Col: 44>
+  <PUNCTUATOR, ")", Line: 21, Col: 45>
+  <REL_OP, "<=", Line: 21, Col: 47>
+  <PUNCTUATOR, "(", Line: 21, Col: 50>
+  <IDENTIFIER, "R", Line: 21, Col: 51>
+  <ARITH_OP, "/", Line: 21, Col: 53>
+  <IDENTIFIER, "S", Line: 21, Col: 55>
+  <PUNCTUATOR, ")", Line: 21, Col: 56>
+  <PUNCTUATOR, ")", Line: 21, Col: 57>
+  <PUNCTUATOR, ";", Line: 21, Col: 58>
+  <IDENTIFIER, "Comparison2", Line: 22, Col: 1>
+  <ASSIGN_OP, "=", Line: 22, Col: 13>
+  <PUNCTUATOR, "(", Line: 22, Col: 15>
+  <PUNCTUATOR, "(", Line: 22, Col: 16>
+  <IDENTIFIER, "A", Line: 22, Col: 17>
+  <ARITH_OP, "**", Line: 22, Col: 19>
+  <INTEGER, "2", Line: 22, Col: 22>
+  <PUNCTUATOR, ")", Line: 22, Col: 23>
+  <REL_OP, ">=", Line: 22, Col: 25>
+  <INTEGER, "100", Line: 22, Col: 28>
+  <PUNCTUATOR, ")", Line: 22, Col: 31>
+  <LOGICAL_OP, "||", Line: 22, Col: 33>
+  <PUNCTUATOR, "(", Line: 22, Col: 36>
+  <PUNCTUATOR, "(", Line: 22, Col: 37>
+  <IDENTIFIER, "B", Line: 22, Col: 38>
+  <ARITH_OP, "+", Line: 22, Col: 40>
+  <IDENTIFIER, "C", Line: 22, Col: 42>
+  <PUNCTUATOR, ")", Line: 22, Col: 43>
+  <REL_OP, "<", Line: 22, Col: 45>
+  <INTEGER, "50", Line: 22, Col: 47>
+  <PUNCTUATOR, ")", Line: 22, Col: 49>
+  <PUNCTUATOR, ";", Line: 22, Col: 50>
+  <IDENTIFIER, "Comparison3", Line: 23, Col: 1>
+  <ASSIGN_OP, "=", Line: 23, Col: 13>
+  <PUNCTUATOR, "(", Line: 23, Col: 15>
+  <IDENTIFIER, "X", Line: 23, Col: 16>
+  <REL_OP, "!=", Line: 23, Col: 18>
+  <IDENTIFIER, "Y", Line: 23, Col: 21>
+  <PUNCTUATOR, ")", Line: 23, Col: 22>
+  <LOGICAL_OP, "&&", Line: 23, Col: 24>
+  <PUNCTUATOR, "(", Line: 23, Col: 27>
+  <IDENTIFIER, "Y", Line: 23, Col: 28>
+  <REL_OP, "!=", Line: 23, Col: 30>
+  <IDENTIFIER, "Z", Line: 23, Col: 33>
+  <PUNCTUATOR, ")", Line: 23, Col: 34>
+  <LOGICAL_OP, "&&", Line: 23, Col: 36>
+  <PUNCTUATOR, "(", Line: 23, Col: 39>
+  <IDENTIFIER, "Z", Line: 23, Col: 40>
+  <REL_OP, "!=", Line: 23, Col: 42>
+  <IDENTIFIER, "X", Line: 23, Col: 45>
+  <PUNCTUATOR, ")", Line: 23, Col: 46>
+  <PUNCTUATOR, ";", Line: 23, Col: 47>
+  <COMMENT, "## Complex logical expressions
+", Line: 25, Col: 1>
+  <IDENTIFIER, "Logic1", Line: 26, Col: 1>
+  <ASSIGN_OP, "=", Line: 26, Col: 8>
+  <PUNCTUATOR, "(", Line: 26, Col: 10>
+  <IDENTIFIER, "A", Line: 26, Col: 11>
+  <REL_OP, ">", Line: 26, Col: 13>
+  <IDENTIFIER, "B", Line: 26, Col: 15>
+  <PUNCTUATOR, ")", Line: 26, Col: 16>
+  <LOGICAL_OP, "&&", Line: 26, Col: 18>
+  <PUNCTUATOR, "(", Line: 26, Col: 21>
+  <IDENTIFIER, "C", Line: 26, Col: 22>
+  <REL_OP, "<", Line: 26, Col: 24>
+  <IDENTIFIER, "D", Line: 26, Col: 26>
+  <PUNCTUATOR, ")", Line: 26, Col: 27>
+  <LOGICAL_OP, "||", Line: 26, Col: 29>
+  <PUNCTUATOR, "(", Line: 26, Col: 32>
+  <IDENTIFIER, "E", Line: 26, Col: 33>
+  <REL_OP, "==", Line: 26, Col: 35>
+  <IDENTIFIER, "F", Line: 26, Col: 38>
+  <PUNCTUATOR, ")", Line: 26, Col: 39>
+  <PUNCTUATOR, ";", Line: 26, Col: 40>
+  <IDENTIFIER, "Logic2", Line: 27, Col: 1>
+  <ASSIGN_OP, "=", Line: 27, Col: 8>
+  <LOGICAL_OP, "!", Line: 27, Col: 10>
+  <PUNCTUATOR, "(", Line: 27, Col: 11>
+  <PUNCTUATOR, "(", Line: 27, Col: 12>
+  <IDENTIFIER, "X", Line: 27, Col: 13>
+  <REL_OP, "==", Line: 27, Col: 15>
+  <IDENTIFIER, "Y", Line: 27, Col: 18>
+  <PUNCTUATOR, ")", Line: 27, Col: 19>
+  <LOGICAL_OP, "&&", Line: 27, Col: 21>
+  <PUNCTUATOR, "(", Line: 27, Col: 24>
+  <IDENTIFIER, "M", Line: 27, Col: 25>
+  <REL_OP, "!=", Line: 27, Col: 27>
+  <IDENTIFIER, "N", Line: 27, Col: 30>
+  <PUNCTUATOR, ")", Line: 27, Col: 31>
+  <PUNCTUATOR, ")", Line: 27, Col: 32>
+  <PUNCTUATOR, ";", Line: 27, Col: 33>
+  <IDENTIFIER, "Logic3", Line: 28, Col: 1>
+  <ASSIGN_OP, "=", Line: 28, Col: 8>
+  <PUNCTUATOR, "(", Line: 28, Col: 10>
+  <PUNCTUATOR, "(", Line: 28, Col: 11>
+  <IDENTIFIER, "P", Line: 28, Col: 12>
+  <REL_OP, "<=", Line: 28, Col: 14>
+  <IDENTIFIER, "Q", Line: 28, Col: 17>
+  <PUNCTUATOR, ")", Line: 28, Col: 18>
+  <LOGICAL_OP, "||", Line: 28, Col: 20>
+  <PUNCTUATOR, "(", Line: 28, Col: 23>
+  <IDENTIFIER, "R", Line: 28, Col: 24>
+  <REL_OP, ">=", Line: 28, Col: 26>
+  <IDENTIFIER, "S", Line: 28, Col: 29>
+  <PUNCTUATOR, ")", Line: 28, Col: 30>
+  <PUNCTUATOR, ")", Line: 28, Col: 31>
+  <LOGICAL_OP, "&&", Line: 28, Col: 33>
+  <LOGICAL_OP, "!", Line: 28, Col: 36>
+  <PUNCTUATOR, "(", Line: 28, Col: 37>
+  <IDENTIFIER, "T", Line: 28, Col: 38>
+  <REL_OP, "==", Line: 28, Col: 40>
+  <IDENTIFIER, "U", Line: 28, Col: 43>
+  <PUNCTUATOR, ")", Line: 28, Col: 44>
+  <PUNCTUATOR, ";", Line: 28, Col: 45>
+  <COMMENT, "## Chained assignments with operations
+", Line: 30, Col: 1>
+  <IDENTIFIER, "Total", Line: 31, Col: 1>
+  <ASSIGN_OP, "=", Line: 31, Col: 7>
+  <INTEGER, "0", Line: 31, Col: 9>
+  <PUNCTUATOR, ";", Line: 31, Col: 10>
+  <IDENTIFIER, "Total", Line: 32, Col: 1>
+  <ASSIGN_OP, "+=", Line: 32, Col: 7>
+  <PUNCTUATOR, "(", Line: 32, Col: 10>
+  <IDENTIFIER, "A", Line: 32, Col: 11>
+  <ARITH_OP, "+", Line: 32, Col: 13>
+  <IDENTIFIER, "B", Line: 32, Col: 15>
+  <PUNCTUATOR, ")", Line: 32, Col: 16>
+  <ARITH_OP, "*", Line: 32, Col: 18>
+  <INTEGER, "2", Line: 32, Col: 20>
+  <PUNCTUATOR, ";", Line: 32, Col: 21>
+  <IDENTIFIER, "Total", Line: 33, Col: 1>
+  <ASSIGN_OP, "-=", Line: 33, Col: 7>
+  <PUNCTUATOR, "(", Line: 33, Col: 10>
+  <IDENTIFIER, "C", Line: 33, Col: 11>
+  <ARITH_OP, "-", Line: 33, Col: 13>
+  <IDENTIFIER, "D", Line: 33, Col: 15>
+  <PUNCTUATOR, ")", Line: 33, Col: 16>
+  <ARITH_OP, "/", Line: 33, Col: 18>
+  <INTEGER, "3", Line: 33, Col: 20>
+  <PUNCTUATOR, ";", Line: 33, Col: 21>
+  <IDENTIFIER, "Total", Line: 34, Col: 1>
+  <ASSIGN_OP, "*=", Line: 34, Col: 7>
+  <PUNCTUATOR, "(", Line: 34, Col: 10>
+  <IDENTIFIER, "E", Line: 34, Col: 11>
+  <ARITH_OP, "+", Line: 34, Col: 13>
+  <IDENTIFIER, "F", Line: 34, Col: 15>
+  <PUNCTUATOR, ")", Line: 34, Col: 16>
+  <PUNCTUATOR, ";", Line: 34, Col: 17>
+  <IDENTIFIER, "Total", Line: 35, Col: 1>
+  <ASSIGN_OP, "/=", Line: 35, Col: 7>
+  <PUNCTUATOR, "(", Line: 35, Col: 10>
+  <IDENTIFIER, "G", Line: 35, Col: 11>
+  <ARITH_OP, "-", Line: 35, Col: 13>
+  <IDENTIFIER, "H", Line: 35, Col: 15>
+  <PUNCTUATOR, ")", Line: 35, Col: 16>
+  <PUNCTUATOR, ";", Line: 35, Col: 17>
+  <COMMENT, "## Array access with complex indices
+", Line: 37, Col: 1>
+  <IDENTIFIER, "Element1", Line: 38, Col: 1>
+  <ASSIGN_OP, "=", Line: 38, Col: 10>
+  <IDENTIFIER, "Array", Line: 38, Col: 12>
+  <PUNCTUATOR, "[", Line: 38, Col: 17>
+  <PUNCTUATOR, "(", Line: 38, Col: 18>
+  <IDENTIFIER, "X", Line: 38, Col: 19>
+  <ARITH_OP, "+", Line: 38, Col: 21>
+  <IDENTIFIER, "Y", Line: 38, Col: 23>
+  <PUNCTUATOR, ")", Line: 38, Col: 24>
+  <ARITH_OP, "*", Line: 38, Col: 26>
+  <INTEGER, "2", Line: 38, Col: 28>
+  <PUNCTUATOR, "]", Line: 38, Col: 29>
+  <PUNCTUATOR, ";", Line: 38, Col: 30>
+  <IDENTIFIER, "Element2", Line: 39, Col: 1>
+  <ASSIGN_OP, "=", Line: 39, Col: 10>
+  <IDENTIFIER, "Matrix", Line: 39, Col: 12>
+  <PUNCTUATOR, "[", Line: 39, Col: 18>
+  <IDENTIFIER, "Row", Line: 39, Col: 19>
+  <ARITH_OP, "*", Line: 39, Col: 23>
+  <IDENTIFIER, "Cols", Line: 39, Col: 25>
+  <ARITH_OP, "+", Line: 39, Col: 30>
+  <IDENTIFIER, "Col", Line: 39, Col: 32>
+  <PUNCTUATOR, "]", Line: 39, Col: 35>
+  <PUNCTUATOR, ";", Line: 39, Col: 36>
+  <IDENTIFIER, "Element3", Line: 40, Col: 1>
+  <ASSIGN_OP, "=", Line: 40, Col: 10>
+  <IDENTIFIER, "Data", Line: 40, Col: 12>
+  <PUNCTUATOR, "[", Line: 40, Col: 16>
+  <PUNCTUATOR, "(", Line: 40, Col: 17>
+  <IDENTIFIER, "Index", Line: 40, Col: 18>
+  <ARITH_OP, "+", Line: 40, Col: 24>
+  <INTEGER, "1", Line: 40, Col: 26>
+  <PUNCTUATOR, ")", Line: 40, Col: 27>
+  <ARITH_OP, "**", Line: 40, Col: 29>
+  <INTEGER, "2", Line: 40, Col: 32>
+  <PUNCTUATOR, "]", Line: 40, Col: 33>
+  <PUNCTUATOR, ";", Line: 40, Col: 34>
+  <COMMENT, "## Increment/decrement in expressions
+", Line: 42, Col: 1>
+  <IDENTIFIER, "Value1", Line: 43, Col: 1>
+  <ASSIGN_OP, "=", Line: 43, Col: 8>
+  <IDENTIFIER, "Counter", Line: 43, Col: 10>
+  <INC_DEC, "++", Line: 43, Col: 17>
+  <ARITH_OP, "+", Line: 43, Col: 20>
+  <IDENTIFIER, "Offset", Line: 43, Col: 22>
+  <PUNCTUATOR, ";", Line: 43, Col: 28>
+  <IDENTIFIER, "Value2", Line: 44, Col: 1>
+  <ASSIGN_OP, "=", Line: 44, Col: 8>
+  <INC_DEC, "--", Line: 44, Col: 10>
+  <IDENTIFIER, "Index", Line: 44, Col: 12>
+  <ARITH_OP, "*", Line: 44, Col: 18>
+  <IDENTIFIER, "Scale", Line: 44, Col: 20>
+  <PUNCTUATOR, ";", Line: 44, Col: 25>
+  <IDENTIFIER, "Value3", Line: 45, Col: 1>
+  <ASSIGN_OP, "=", Line: 45, Col: 8>
+  <PUNCTUATOR, "(", Line: 45, Col: 10>
+  <INC_DEC, "++", Line: 45, Col: 11>
+  <IDENTIFIER, "A", Line: 45, Col: 13>
+  <PUNCTUATOR, ")", Line: 45, Col: 14>
+  <ARITH_OP, "+", Line: 45, Col: 16>
+  <PUNCTUATOR, "(", Line: 45, Col: 18>
+  <IDENTIFIER, "B", Line: 45, Col: 19>
+  <INC_DEC, "--", Line: 45, Col: 20>
+  <PUNCTUATOR, ")", Line: 45, Col: 22>
+  <PUNCTUATOR, ";", Line: 45, Col: 23>
+  <COMMENT, "## Scientific calculations
+", Line: 47, Col: 1>
+  <IDENTIFIER, "Force", Line: 48, Col: 1>
+  <ASSIGN_OP, "=", Line: 48, Col: 7>
+  <IDENTIFIER, "Mass", Line: 48, Col: 9>
+  <ARITH_OP, "*", Line: 48, Col: 14>
+  <PUNCTUATOR, "(", Line: 48, Col: 16>
+  <IDENTIFIER, "Velocity", Line: 48, Col: 17>
+  <ARITH_OP, "**", Line: 48, Col: 26>
+  <INTEGER, "2", Line: 48, Col: 29>
+  <PUNCTUATOR, ")", Line: 48, Col: 30>
+  <PUNCTUATOR, ";", Line: 48, Col: 31>
+  <IDENTIFIER, "Energy", Line: 49, Col: 1>
+  <ASSIGN_OP, "=", Line: 49, Col: 8>
+  <FLOAT, "0.5", Line: 49, Col: 10>
+  <ARITH_OP, "*", Line: 49, Col: 14>
+  <IDENTIFIER, "Mass", Line: 49, Col: 16>
+  <ARITH_OP, "*", Line: 49, Col: 21>
+  <PUNCTUATOR, "(", Line: 49, Col: 23>
+  <IDENTIFIER, "Speed", Line: 49, Col: 24>
+  <ARITH_OP, "**", Line: 49, Col: 30>
+  <INTEGER, "2", Line: 49, Col: 33>
+  <PUNCTUATOR, ")", Line: 49, Col: 34>
+  <PUNCTUATOR, ";", Line: 49, Col: 35>
+  <IDENTIFIER, "Distance", Line: 50, Col: 1>
+  <ASSIGN_OP, "=", Line: 50, Col: 10>
+  <PUNCTUATOR, "(", Line: 50, Col: 12>
+  <IDENTIFIER, "Initial_velocity", Line: 50, Col: 13>
+  <ARITH_OP, "*", Line: 50, Col: 30>
+  <IDENTIFIER, "Time", Line: 50, Col: 32>
+  <PUNCTUATOR, ")", Line: 50, Col: 36>
+  <ARITH_OP, "+", Line: 50, Col: 38>
+  <PUNCTUATOR, "(", Line: 50, Col: 40>
+  <FLOAT, "0.5", Line: 50, Col: 41>
+  <ARITH_OP, "*", Line: 50, Col: 45>
+  <IDENTIFIER, "Acceleration", Line: 50, Col: 47>
+  <ARITH_OP, "*", Line: 50, Col: 60>
+  <PUNCTUATOR, "(", Line: 50, Col: 62>
+  <IDENTIFIER, "Time", Line: 50, Col: 63>
+  <ARITH_OP, "**", Line: 50, Col: 68>
+  <INTEGER, "2", Line: 50, Col: 71>
+  <PUNCTUATOR, ")", Line: 50, Col: 72>
+  <PUNCTUATOR, ")", Line: 50, Col: 73>
+  <PUNCTUATOR, ";", Line: 50, Col: 74>
+  <COMMENT, "## Complex boolean expressions
+", Line: 52, Col: 1>
+  <IDENTIFIER, "Is_valid", Line: 53, Col: 1>
+  <ASSIGN_OP, "=", Line: 53, Col: 10>
+  <PUNCTUATOR, "(", Line: 53, Col: 12>
+  <PUNCTUATOR, "(", Line: 53, Col: 13>
+  <IDENTIFIER, "Age", Line: 53, Col: 14>
+  <REL_OP, ">=", Line: 53, Col: 18>
+  <INTEGER, "18", Line: 53, Col: 21>
+  <PUNCTUATOR, ")", Line: 53, Col: 23>
+  <LOGICAL_OP, "&&", Line: 53, Col: 25>
+  <PUNCTUATOR, "(", Line: 53, Col: 28>
+  <IDENTIFIER, "Age", Line: 53, Col: 29>
+  <REL_OP, "<=", Line: 53, Col: 33>
+  <INTEGER, "65", Line: 53, Col: 36>
+  <PUNCTUATOR, ")", Line: 53, Col: 38>
+  <PUNCTUATOR, ")", Line: 53, Col: 39>
+  <LOGICAL_OP, "||", Line: 53, Col: 41>
+  <PUNCTUATOR, "(", Line: 53, Col: 44>
+  <IDENTIFIER, "Is_special", Line: 53, Col: 45>
+  <REL_OP, "==", Line: 53, Col: 56>
+  <BOOLEAN, "TRUE", Line: 53, Col: 59>
+  <PUNCTUATOR, ")", Line: 53, Col: 63>
+  <PUNCTUATOR, ";", Line: 53, Col: 64>
+  <IDENTIFIER, "Can_proceed", Line: 54, Col: 1>
+  <ASSIGN_OP, "=", Line: 54, Col: 13>
+  <PUNCTUATOR, "(", Line: 54, Col: 15>
+  <PUNCTUATOR, "(", Line: 54, Col: 16>
+  <IDENTIFIER, "Score", Line: 54, Col: 17>
+  <REL_OP, ">", Line: 54, Col: 23>
+  <INTEGER, "50", Line: 54, Col: 25>
+  <PUNCTUATOR, ")", Line: 54, Col: 27>
+  <LOGICAL_OP, "&&", Line: 54, Col: 29>
+  <PUNCTUATOR, "(", Line: 54, Col: 32>
+  <IDENTIFIER, "Attempts", Line: 54, Col: 33>
+  <REL_OP, "<", Line: 54, Col: 42>
+  <INTEGER, "3", Line: 54, Col: 44>
+  <PUNCTUATOR, ")", Line: 54, Col: 45>
+  <PUNCTUATOR, ")", Line: 54, Col: 46>
+  <LOGICAL_OP, "||", Line: 54, Col: 48>
+  <PUNCTUATOR, "(", Line: 54, Col: 51>
+  <IDENTIFIER, "Override", Line: 54, Col: 52>
+  <REL_OP, "==", Line: 54, Col: 61>
+  <BOOLEAN, "TRUE", Line: 54, Col: 64>
+  <PUNCTUATOR, ")", Line: 54, Col: 68>
+  <PUNCTUATOR, ";", Line: 54, Col: 69>
+  <IDENTIFIER, "Should_retry", Line: 55, Col: 1>
+  <ASSIGN_OP, "=", Line: 55, Col: 14>
+  <PUNCTUATOR, "(", Line: 55, Col: 16>
+  <PUNCTUATOR, "(", Line: 55, Col: 17>
+  <IDENTIFIER, "Failures", Line: 55, Col: 18>
+  <REL_OP, "<=", Line: 55, Col: 27>
+  <IDENTIFIER, "Max_retries", Line: 55, Col: 30>
+  <PUNCTUATOR, ")", Line: 55, Col: 41>
+  <LOGICAL_OP, "&&", Line: 55, Col: 43>
+  <PUNCTUATOR, "(", Line: 55, Col: 46>
+  <IDENTIFIER, "Time_elapsed", Line: 55, Col: 47>
+  <REL_OP, "<", Line: 55, Col: 60>
+  <IDENTIFIER, "Timeout", Line: 55, Col: 62>
+  <PUNCTUATOR, ")", Line: 55, Col: 69>
+  <PUNCTUATOR, ")", Line: 55, Col: 70>
+  <LOGICAL_OP, "&&", Line: 55, Col: 72>
+  <PUNCTUATOR, "(", Line: 55, Col: 75>
+  <LOGICAL_OP, "!", Line: 55, Col: 76>
+  <IDENTIFIER, "Is_cancelled", Line: 55, Col: 77>
+  <PUNCTUATOR, ")", Line: 55, Col: 89>
+  <PUNCTUATOR, ";", Line: 55, Col: 90>
+  <COMMENT, "## Bitwise-style operations (using arithmetic)
+", Line: 57, Col: 1>
+  <IDENTIFIER, "Shifted_left", Line: 58, Col: 1>
+  <ASSIGN_OP, "=", Line: 58, Col: 14>
+  <IDENTIFIER, "Value", Line: 58, Col: 16>
+  <ARITH_OP, "*", Line: 58, Col: 22>
+  <PUNCTUATOR, "(", Line: 58, Col: 24>
+  <INTEGER, "2", Line: 58, Col: 25>
+  <ARITH_OP, "**", Line: 58, Col: 27>
+  <INTEGER, "3", Line: 58, Col: 30>
+  <PUNCTUATOR, ")", Line: 58, Col: 31>
+  <PUNCTUATOR, ";", Line: 58, Col: 32>
+  <IDENTIFIER, "Shifted_right", Line: 59, Col: 1>
+  <ASSIGN_OP, "=", Line: 59, Col: 15>
+  <IDENTIFIER, "Value", Line: 59, Col: 17>
+  <ARITH_OP, "/", Line: 59, Col: 23>
+  <PUNCTUATOR, "(", Line: 59, Col: 25>
+  <INTEGER, "2", Line: 59, Col: 26>
+  <ARITH_OP, "**", Line: 59, Col: 28>
+  <INTEGER, "2", Line: 59, Col: 31>
+  <PUNCTUATOR, ")", Line: 59, Col: 32>
+  <PUNCTUATOR, ";", Line: 59, Col: 33>
+  <IDENTIFIER, "Combined", Line: 60, Col: 1>
+  <ASSIGN_OP, "=", Line: 60, Col: 10>
+  <PUNCTUATOR, "(", Line: 60, Col: 12>
+  <IDENTIFIER, "A", Line: 60, Col: 13>
+  <ARITH_OP, "*", Line: 60, Col: 15>
+  <INTEGER, "256", Line: 60, Col: 17>
+  <PUNCTUATOR, ")", Line: 60, Col: 20>
+  <ARITH_OP, "+", Line: 60, Col: 22>
+  <PUNCTUATOR, "(", Line: 60, Col: 24>
+  <IDENTIFIER, "B", Line: 60, Col: 25>
+  <ARITH_OP, "*", Line: 60, Col: 27>
+  <INTEGER, "16", Line: 60, Col: 29>
+  <PUNCTUATOR, ")", Line: 60, Col: 31>
+  <ARITH_OP, "+", Line: 60, Col: 33>
+  <IDENTIFIER, "C", Line: 60, Col: 35>
+  <PUNCTUATOR, ";", Line: 60, Col: 36>
+  <COMMENT, "## Nested increments and assignments
+", Line: 62, Col: 1>
+  <IDENTIFIER, "X", Line: 63, Col: 1>
+  <ASSIGN_OP, "=", Line: 63, Col: 3>
+  <IDENTIFIER, "Y", Line: 63, Col: 5>
+  <INC_DEC, "++", Line: 63, Col: 6>
+  <ARITH_OP, "+", Line: 63, Col: 9>
+  <IDENTIFIER, "Z", Line: 63, Col: 11>
+  <INC_DEC, "++", Line: 63, Col: 12>
+  <PUNCTUATOR, ";", Line: 63, Col: 14>
+  <IDENTIFIER, "Result", Line: 64, Col: 1>
+  <ASSIGN_OP, "=", Line: 64, Col: 8>
+  <PUNCTUATOR, "(", Line: 64, Col: 10>
+  <INC_DEC, "++", Line: 64, Col: 11>
+  <IDENTIFIER, "A", Line: 64, Col: 13>
+  <PUNCTUATOR, ")", Line: 64, Col: 14>
+  <ARITH_OP, "*", Line: 64, Col: 16>
+  <PUNCTUATOR, "(", Line: 64, Col: 18>
+  <INC_DEC, "--", Line: 64, Col: 19>
+  <IDENTIFIER, "B", Line: 64, Col: 21>
+  <PUNCTUATOR, ")", Line: 64, Col: 22>
+  <ARITH_OP, "+", Line: 64, Col: 24>
+  <PUNCTUATOR, "(", Line: 64, Col: 26>
+  <IDENTIFIER, "C", Line: 64, Col: 27>
+  <INC_DEC, "++", Line: 64, Col: 28>
+  <PUNCTUATOR, ")", Line: 64, Col: 30>
+  <ARITH_OP, "-", Line: 64, Col: 32>
+  <PUNCTUATOR, "(", Line: 64, Col: 34>
+  <IDENTIFIER, "D", Line: 64, Col: 35>
+  <INC_DEC, "--", Line: 64, Col: 36>
+  <PUNCTUATOR, ")", Line: 64, Col: 38>
+  <PUNCTUATOR, ";", Line: 64, Col: 39>
+  <IDENTIFIER, "Final", Line: 65, Col: 1>
+  <ASSIGN_OP, "=", Line: 65, Col: 7>
+  <PUNCTUATOR, "(", Line: 65, Col: 9>
+  <PUNCTUATOR, "(", Line: 65, Col: 10>
+  <IDENTIFIER, "X", Line: 65, Col: 11>
+  <ASSIGN_OP, "+=", Line: 65, Col: 13>
+  <INTEGER, "5", Line: 65, Col: 16>
+  <PUNCTUATOR, ")", Line: 65, Col: 17>
+  <ARITH_OP, "*", Line: 65, Col: 19>
+  <PUNCTUATOR, "(", Line: 65, Col: 21>
+  <IDENTIFIER, "Y", Line: 65, Col: 22>
+  <ASSIGN_OP, "-=", Line: 65, Col: 24>
+  <INTEGER, "3", Line: 65, Col: 27>
+  <PUNCTUATOR, ")", Line: 65, Col: 28>
+  <PUNCTUATOR, ")", Line: 65, Col: 29>
+  <ARITH_OP, "/", Line: 65, Col: 31>
+  <PUNCTUATOR, "(", Line: 65, Col: 33>
+  <IDENTIFIER, "Z", Line: 65, Col: 34>
+  <ASSIGN_OP, "*=", Line: 65, Col: 36>
+  <INTEGER, "2", Line: 65, Col: 39>
+  <PUNCTUATOR, ")", Line: 65, Col: 40>
+  <PUNCTUATOR, ";", Line: 65, Col: 41>
+  <COMMENT, "## Very complex nested expression
+", Line: 67, Col: 1>
+  <IDENTIFIER, "Ultimate", Line: 68, Col: 1>
+  <ASSIGN_OP, "=", Line: 68, Col: 10>
+  <PUNCTUATOR, "(", Line: 68, Col: 12>
+  <PUNCTUATOR, "(", Line: 68, Col: 13>
+  <PUNCTUATOR, "(", Line: 68, Col: 14>
+  <PUNCTUATOR, "(", Line: 68, Col: 15>
+  <IDENTIFIER, "A", Line: 68, Col: 16>
+  <ARITH_OP, "+", Line: 68, Col: 18>
+  <IDENTIFIER, "B", Line: 68, Col: 20>
+  <PUNCTUATOR, ")", Line: 68, Col: 21>
+  <ARITH_OP, "**", Line: 68, Col: 23>
+  <INTEGER, "2", Line: 68, Col: 26>
+  <PUNCTUATOR, ")", Line: 68, Col: 27>
+  <ARITH_OP, "-", Line: 68, Col: 29>
+  <PUNCTUATOR, "(", Line: 68, Col: 31>
+  <PUNCTUATOR, "(", Line: 68, Col: 32>
+  <IDENTIFIER, "C", Line: 68, Col: 33>
+  <ARITH_OP, "-", Line: 68, Col: 35>
+  <IDENTIFIER, "D", Line: 68, Col: 37>
+  <PUNCTUATOR, ")", Line: 68, Col: 38>
+  <ARITH_OP, "**", Line: 68, Col: 40>
+  <INTEGER, "2", Line: 68, Col: 43>
+  <PUNCTUATOR, ")", Line: 68, Col: 44>
+  <PUNCTUATOR, ")", Line: 68, Col: 45>
+  <ARITH_OP, "/", Line: 68, Col: 47>
+  <PUNCTUATOR, "(", Line: 68, Col: 49>
+  <PUNCTUATOR, "(", Line: 68, Col: 50>
+  <IDENTIFIER, "E", Line: 68, Col: 51>
+  <ARITH_OP, "*", Line: 68, Col: 53>
+  <IDENTIFIER, "F", Line: 68, Col: 55>
+  <PUNCTUATOR, ")", Line: 68, Col: 56>
+  <ARITH_OP, "+", Line: 68, Col: 58>
+  <PUNCTUATOR, "(", Line: 68, Col: 60>
+  <IDENTIFIER, "G", Line: 68, Col: 61>
+  <ARITH_OP, "/", Line: 68, Col: 63>
+  <IDENTIFIER, "H", Line: 68, Col: 65>
+  <PUNCTUATOR, ")", Line: 68, Col: 66>
+  <PUNCTUATOR, ")", Line: 68, Col: 67>
+  <PUNCTUATOR, ")", Line: 68, Col: 68>
+  <REL_OP, ">=", Line: 68, Col: 70>
+  <PUNCTUATOR, "(", Line: 68, Col: 73>
+  <PUNCTUATOR, "(", Line: 68, Col: 74>
+  <IDENTIFIER, "I", Line: 68, Col: 75>
+  <ARITH_OP, "%", Line: 68, Col: 77>
+  <IDENTIFIER, "J", Line: 68, Col: 79>
+  <PUNCTUATOR, ")", Line: 68, Col: 80>
+  <ARITH_OP, "*", Line: 68, Col: 82>
+  <PUNCTUATOR, "(", Line: 68, Col: 84>
+  <IDENTIFIER, "K", Line: 68, Col: 85>
+  <ARITH_OP, "+", Line: 68, Col: 87>
+  <IDENTIFIER, "L", Line: 68, Col: 89>
+  <PUNCTUATOR, ")", Line: 68, Col: 90>
+  <PUNCTUATOR, ")", Line: 68, Col: 91>
+  <PUNCTUATOR, ";", Line: 68, Col: 92>
+  <COMMENT, "## Multiple operations on same line
+", Line: 70, Col: 1>
+  <IDENTIFIER, "X", Line: 71, Col: 1>
+  <ASSIGN_OP, "=", Line: 71, Col: 3>
+  <INTEGER, "1", Line: 71, Col: 5>
+  <PUNCTUATOR, ";", Line: 71, Col: 6>
+  <IDENTIFIER, "Y", Line: 71, Col: 8>
+  <ASSIGN_OP, "=", Line: 71, Col: 10>
+  <INTEGER, "2", Line: 71, Col: 12>
+  <PUNCTUATOR, ";", Line: 71, Col: 13>
+  <IDENTIFIER, "Z", Line: 71, Col: 15>
+  <ASSIGN_OP, "=", Line: 71, Col: 17>
+  <IDENTIFIER, "X", Line: 71, Col: 19>
+  <ARITH_OP, "+", Line: 71, Col: 21>
+  <IDENTIFIER, "Y", Line: 71, Col: 23>
+  <PUNCTUATOR, ";", Line: 71, Col: 24>
+  <IDENTIFIER, "A", Line: 72, Col: 1>
+  <ASSIGN_OP, "+=", Line: 72, Col: 3>
+  <INTEGER, "10", Line: 72, Col: 6>
+  <PUNCTUATOR, ";", Line: 72, Col: 8>
+  <IDENTIFIER, "B", Line: 72, Col: 10>
+  <ASSIGN_OP, "-=", Line: 72, Col: 12>
+  <INTEGER, "5", Line: 72, Col: 15>
+  <PUNCTUATOR, ";", Line: 72, Col: 16>
+  <IDENTIFIER, "C", Line: 72, Col: 18>
+  <ASSIGN_OP, "=", Line: 72, Col: 20>
+  <IDENTIFIER, "A", Line: 72, Col: 22>
+  <ARITH_OP, "*", Line: 72, Col: 24>
+  <IDENTIFIER, "B", Line: 72, Col: 26>
+  <PUNCTUATOR, ";", Line: 72, Col: 27>
+  <COMMENT, "## Expression with all operator types
+", Line: 74, Col: 1>
+  <IDENTIFIER, "Mega_expression", Line: 75, Col: 1>
+  <ASSIGN_OP, "=", Line: 75, Col: 17>
+  <PUNCTUATOR, "(", Line: 75, Col: 19>
+  <PUNCTUATOR, "(", Line: 75, Col: 20>
+  <IDENTIFIER, "A", Line: 75, Col: 21>
+  <ARITH_OP, "+", Line: 75, Col: 23>
+  <IDENTIFIER, "B", Line: 75, Col: 25>
+  <PUNCTUATOR, ")", Line: 75, Col: 26>
+  <ARITH_OP, "*", Line: 75, Col: 28>
+  <IDENTIFIER, "C", Line: 75, Col: 30>
+  <PUNCTUATOR, ")", Line: 75, Col: 31>
+  <REL_OP, ">=", Line: 75, Col: 33>
+  <PUNCTUATOR, "(", Line: 75, Col: 36>
+  <IDENTIFIER, "D", Line: 75, Col: 37>
+  <ARITH_OP, "/", Line: 75, Col: 39>
+  <IDENTIFIER, "E", Line: 75, Col: 41>
+  <PUNCTUATOR, ")", Line: 75, Col: 42>
+  <LOGICAL_OP, "&&", Line: 75, Col: 44>
+  <PUNCTUATOR, "(", Line: 75, Col: 47>
+  <PUNCTUATOR, "(", Line: 75, Col: 48>
+  <IDENTIFIER, "F", Line: 75, Col: 49>
+  <ARITH_OP, "%", Line: 75, Col: 51>
+  <IDENTIFIER, "G", Line: 75, Col: 53>
+  <PUNCTUATOR, ")", Line: 75, Col: 54>
+  <REL_OP, "!=", Line: 75, Col: 56>
+  <INTEGER, "0", Line: 75, Col: 59>
+  <PUNCTUATOR, ")", Line: 75, Col: 60>
+  <LOGICAL_OP, "||", Line: 75, Col: 62>
+  <LOGICAL_OP, "!", Line: 75, Col: 65>
+  <PUNCTUATOR, "(", Line: 75, Col: 66>
+  <IDENTIFIER, "H", Line: 75, Col: 67>
+  <REL_OP, "==", Line: 75, Col: 69>
+  <IDENTIFIER, "I", Line: 75, Col: 72>
+  <PUNCTUATOR, ")", Line: 75, Col: 73>
+  <PUNCTUATOR, ";", Line: 75, Col: 74>
+  <COMMENT, "## End of test2.lang
+", Line: 77, Col: 1>
+  <EOF, "<EOF>", Line: 78, Col: 1>
+╚══════════════════════════════════════════════════════════════╝
+
+
+STATISTICS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                         STATISTICS                          ║
+╠══════════════════════════════════════════════════════════════╣
+  Total tokens            : 698
+  Lines processed         : 78
+  Comments removed        : 20
+  Unique identifiers      : 86
+  Lexical errors          : 0
+
+  Token breakdown:
+  Type                  Count
+  ──────────────────────────────
+  IDENTIFIER            196
+  INTEGER               34
+  FLOAT                 2
+  BOOLEAN               2
+  ARITH_OP              94
+  REL_OP                27
+  LOGICAL_OP            21
+  ASSIGN_OP             48
+  INC_DEC               10
+  PUNCTUATOR            243
+  COMMENT               20
+  EOF                   1
+╚══════════════════════════════════════════════════════════════╝
+
+
+SYMBOL TABLE:
+SymbolTable@3b07d329
+
+ERROR REPORT:
+ErrorHandler@41629346
+
+
+
+------------------------------------------------------------
+Reading from: D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test3.lang
+------------------------------------------------------------
+
+TOKENS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                        TOKEN STREAM                         ║
+╠══════════════════════════════════════════════════════════════╣
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 1, Col: 1>
+  <COMMENT, "## TEST 3: STRING/CHAR LITERALS (NOT SUPPORTED)
+", Line: 2, Col: 1>
+  <COMMENT, "## This scanner does NOT implement strings or characters
+", Line: 3, Col: 1>
+  <COMMENT, "## These will be recognized as ERRORS
+", Line: 4, Col: 1>
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 5, Col: 1>
+  <COMMENT, "## NOTE: The DFA-based scanner only implements:
+", Line: 7, Col: 1>
+  <COMMENT, "##   1. Integers, 2. Floats, 3. Identifiers, 4. Booleans
+", Line: 8, Col: 1>
+  <COMMENT, "##   5. Operators, 6. Punctuators, 7. Comments
+", Line: 9, Col: 1>
+  <COMMENT, "##
+", Line: 10, Col: 1>
+  <COMMENT, "## Strings and characters are NOT in the DFA specification,
+", Line: 11, Col: 1>
+  <COMMENT, "## so they will be tokenized as individual characters/errors.
+", Line: 12, Col: 1>
+  <COMMENT, "## Valid tokens first
+", Line: 14, Col: 1>
+  <IDENTIFIER, "Counter", Line: 15, Col: 1>
+  <ASSIGN_OP, "=", Line: 15, Col: 9>
+  <INTEGER, "42", Line: 15, Col: 11>
+  <PUNCTUATOR, ";", Line: 15, Col: 13>
+  <IDENTIFIER, "Name", Line: 16, Col: 1>
+  <ASSIGN_OP, "=", Line: 16, Col: 6>
+  <INTEGER, "100", Line: 16, Col: 8>
+  <PUNCTUATOR, ";", Line: 16, Col: 11>
+  <COMMENT, "## Attempting strings (will cause errors - quotes are invalid)
+", Line: 18, Col: 1>
+  <IDENTIFIER, "Message", Line: 19, Col: 1>
+  <ASSIGN_OP, "=", Line: 19, Col: 9>
+  <IDENTIFIER, "Hello", Line: 19, Col: 12>
+  <IDENTIFIER, "World", Line: 19, Col: 18>
+  <PUNCTUATOR, ";", Line: 19, Col: 24>
+  <IDENTIFIER, "Text", Line: 20, Col: 1>
+  <ASSIGN_OP, "=", Line: 20, Col: 6>
+  <IDENTIFIER, "This", Line: 20, Col: 9>
+  <PUNCTUATOR, ";", Line: 20, Col: 24>
+  <IDENTIFIER, "Quote", Line: 21, Col: 1>
+  <ASSIGN_OP, "=", Line: 21, Col: 7>
+  <IDENTIFIER, "She", Line: 21, Col: 10>
+  <PUNCTUATOR, ";", Line: 21, Col: 29>
+  <COMMENT, "## Attempting character literals (will cause errors)
+", Line: 23, Col: 1>
+  <IDENTIFIER, "Letter", Line: 24, Col: 1>
+  <ASSIGN_OP, "=", Line: 24, Col: 8>
+  <IDENTIFIER, "A", Line: 24, Col: 11>
+  <PUNCTUATOR, ";", Line: 24, Col: 13>
+  <IDENTIFIER, "Newline", Line: 25, Col: 1>
+  <ASSIGN_OP, "=", Line: 25, Col: 9>
+  <PUNCTUATOR, ";", Line: 25, Col: 15>
+  <IDENTIFIER, "Tab", Line: 26, Col: 1>
+  <ASSIGN_OP, "=", Line: 26, Col: 5>
+  <PUNCTUATOR, ";", Line: 26, Col: 11>
+  <COMMENT, "## Mix of valid and invalid
+", Line: 28, Col: 1>
+  <IDENTIFIER, "Valid_number", Line: 29, Col: 1>
+  <ASSIGN_OP, "=", Line: 29, Col: 14>
+  <INTEGER, "123", Line: 29, Col: 16>
+  <PUNCTUATOR, ";", Line: 29, Col: 19>
+  <IDENTIFIER, "Invalid_string", Line: 30, Col: 1>
+  <ASSIGN_OP, "=", Line: 30, Col: 16>
+  <PUNCTUATOR, ";", Line: 30, Col: 24>
+  <IDENTIFIER, "Valid_bool", Line: 31, Col: 1>
+  <ASSIGN_OP, "=", Line: 31, Col: 12>
+  <BOOLEAN, "TRUE", Line: 31, Col: 14>
+  <PUNCTUATOR, ";", Line: 31, Col: 18>
+  <IDENTIFIER, "Invalid_char", Line: 32, Col: 1>
+  <ASSIGN_OP, "=", Line: 32, Col: 14>
+  <PUNCTUATOR, ";", Line: 32, Col: 19>
+  <COMMENT, "## Escape sequences (all invalid in this scanner)
+", Line: 34, Col: 1>
+  <IDENTIFIER, "Escaped1", Line: 35, Col: 1>
+  <ASSIGN_OP, "=", Line: 35, Col: 10>
+  <IDENTIFIER, "Line1", Line: 35, Col: 13>
+  <IDENTIFIER, "Line2", Line: 35, Col: 20>
+  <PUNCTUATOR, ";", Line: 35, Col: 26>
+  <IDENTIFIER, "Escaped2", Line: 36, Col: 1>
+  <ASSIGN_OP, "=", Line: 36, Col: 10>
+  <IDENTIFIER, "Tab", Line: 36, Col: 13>
+  <PUNCTUATOR, ";", Line: 36, Col: 23>
+  <IDENTIFIER, "Escaped3", Line: 37, Col: 1>
+  <ASSIGN_OP, "=", Line: 37, Col: 10>
+  <IDENTIFIER, "Quote", Line: 37, Col: 13>
+  <PUNCTUATOR, ";", Line: 37, Col: 27>
+  <IDENTIFIER, "Escaped4", Line: 38, Col: 1>
+  <ASSIGN_OP, "=", Line: 38, Col: 10>
+  <PUNCTUATOR, ";", Line: 38, Col: 15>
+  <IDENTIFIER, "Escaped5", Line: 39, Col: 1>
+  <ASSIGN_OP, "=", Line: 39, Col: 10>
+  <PUNCTUATOR, ";", Line: 39, Col: 16>
+  <COMMENT, "## End of test3.lang
+", Line: 41, Col: 1>
+  <COMMENT, "## Expected: Many lexical errors for quotes and string content
+", Line: 42, Col: 1>
+  <EOF, "<EOF>", Line: 43, Col: 1>
+╚══════════════════════════════════════════════════════════════╝
+
+
+STATISTICS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                         STATISTICS                          ║
+╠══════════════════════════════════════════════════════════════╣
+  Total tokens            : 83
+  Lines processed         : 43
+  Comments removed        : 18
+  Unique identifiers      : 24
+  Lexical errors          : 74
+
+  Token breakdown:
+  Type                  Count
+  ──────────────────────────────
+  IDENTIFIER            26
+  INTEGER               3
+  BOOLEAN               1
+  ASSIGN_OP             17
+  PUNCTUATOR            17
+  COMMENT               18
+  EOF                   1
+╚══════════════════════════════════════════════════════════════╝
+
+
+SYMBOL TABLE:
+SymbolTable@3d075dc0
+
+ERROR REPORT:
+ErrorHandler@214c265e
+
+
+
+------------------------------------------------------------
+Reading from: D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test4.lang
+------------------------------------------------------------
+
+TOKENS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                        TOKEN STREAM                         ║
+╠══════════════════════════════════════════════════════════════╣
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 1, Col: 1>
+  <COMMENT, "## TEST 4: LEXICAL ERRORS
+", Line: 2, Col: 1>
+  <COMMENT, "## Invalid characters, malformed tokens, syntax violations
+", Line: 3, Col: 1>
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 4, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 6, Col: 1>
+  <COMMENT, "## ERROR 1: Invalid characters (@ $ etc.)
+", Line: 7, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 8, Col: 1>
+  <IDENTIFIER, "Email", Line: 9, Col: 1>
+  <ASSIGN_OP, "=", Line: 9, Col: 7>
+  <PUNCTUATOR, ";", Line: 9, Col: 25>
+  <IDENTIFIER, "Price", Line: 10, Col: 1>
+  <ASSIGN_OP, "=", Line: 10, Col: 7>
+  <INTEGER, "100", Line: 10, Col: 10>
+  <PUNCTUATOR, ";", Line: 10, Col: 13>
+  <IDENTIFIER, "Variable", Line: 11, Col: 1>
+  <ASSIGN_OP, "=", Line: 11, Col: 11>
+  <INTEGER, "50", Line: 11, Col: 13>
+  <PUNCTUATOR, ";", Line: 11, Col: 15>
+  <IDENTIFIER, "Test", Line: 12, Col: 1>
+  <ASSIGN_OP, "=", Line: 12, Col: 10>
+  <INTEGER, "25", Line: 12, Col: 12>
+  <PUNCTUATOR, ";", Line: 12, Col: 14>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 14, Col: 1>
+  <COMMENT, "## ERROR 2: Invalid identifiers (must start with uppercase)
+", Line: 15, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 16, Col: 1>
+  <ASSIGN_OP, "=", Line: 17, Col: 11>
+  <INTEGER, "10", Line: 17, Col: 13>
+  <PUNCTUATOR, ";", Line: 17, Col: 15>
+  <IDENTIFIER, "Variable", Line: 18, Col: 3>
+  <ASSIGN_OP, "=", Line: 18, Col: 12>
+  <INTEGER, "20", Line: 18, Col: 14>
+  <PUNCTUATOR, ";", Line: 18, Col: 16>
+  <INTEGER, "123", Line: 19, Col: 6>
+  <ASSIGN_OP, "=", Line: 19, Col: 10>
+  <INTEGER, "30", Line: 19, Col: 12>
+  <PUNCTUATOR, ";", Line: 19, Col: 14>
+  <ASSIGN_OP, "=", Line: 20, Col: 13>
+  <INTEGER, "40", Line: 20, Col: 15>
+  <PUNCTUATOR, ";", Line: 20, Col: 17>
+  <INTEGER, "2", Line: 21, Col: 1>
+  <ASSIGN_OP, "=", Line: 21, Col: 10>
+  <INTEGER, "50", Line: 21, Col: 12>
+  <PUNCTUATOR, ";", Line: 21, Col: 14>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 23, Col: 1>
+  <COMMENT, "## ERROR 3: Malformed numbers
+", Line: 24, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 25, Col: 1>
+  <IDENTIFIER, "Bad_float1", Line: 26, Col: 1>
+  <ASSIGN_OP, "=", Line: 26, Col: 12>
+  <INTEGER, "3", Line: 26, Col: 14>
+  <PUNCTUATOR, ";", Line: 26, Col: 16>
+  <IDENTIFIER, "Bad_float2", Line: 27, Col: 1>
+  <ASSIGN_OP, "=", Line: 27, Col: 12>
+  <INTEGER, "14", Line: 27, Col: 15>
+  <PUNCTUATOR, ";", Line: 27, Col: 17>
+  <IDENTIFIER, "Bad_exp1", Line: 28, Col: 1>
+  <ASSIGN_OP, "=", Line: 28, Col: 10>
+  <ERROR, "1.5e", Line: 28, Col: 12>
+  <PUNCTUATOR, ";", Line: 28, Col: 16>
+  <IDENTIFIER, "Bad_exp2", Line: 29, Col: 1>
+  <ASSIGN_OP, "=", Line: 29, Col: 10>
+  <ERROR, "2.0E+", Line: 29, Col: 12>
+  <PUNCTUATOR, ";", Line: 29, Col: 17>
+  <IDENTIFIER, "Bad_exp3", Line: 30, Col: 1>
+  <ASSIGN_OP, "=", Line: 30, Col: 10>
+  <ERROR, "3.14e-", Line: 30, Col: 12>
+  <PUNCTUATOR, ";", Line: 30, Col: 18>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 32, Col: 1>
+  <COMMENT, "## ERROR 4: Single # (comment needs ##)
+", Line: 33, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 34, Col: 1>
+  <IDENTIFIER, "This", Line: 35, Col: 3>
+  <IDENTIFIER, "Value", Line: 36, Col: 1>
+  <ASSIGN_OP, "=", Line: 36, Col: 7>
+  <INTEGER, "100", Line: 36, Col: 9>
+  <PUNCTUATOR, ";", Line: 36, Col: 12>
+  <IDENTIFIER, "Another", Line: 37, Col: 3>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 39, Col: 1>
+  <COMMENT, "## ERROR 5: Single & or | (need && or ||)
+", Line: 40, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 41, Col: 1>
+  <IDENTIFIER, "Result1", Line: 42, Col: 1>
+  <ASSIGN_OP, "=", Line: 42, Col: 9>
+  <PUNCTUATOR, "(", Line: 42, Col: 11>
+  <IDENTIFIER, "X", Line: 42, Col: 12>
+  <IDENTIFIER, "Y", Line: 42, Col: 16>
+  <PUNCTUATOR, ")", Line: 42, Col: 17>
+  <PUNCTUATOR, ";", Line: 42, Col: 18>
+  <IDENTIFIER, "Result2", Line: 43, Col: 1>
+  <ASSIGN_OP, "=", Line: 43, Col: 9>
+  <PUNCTUATOR, "(", Line: 43, Col: 11>
+  <IDENTIFIER, "A", Line: 43, Col: 12>
+  <IDENTIFIER, "B", Line: 43, Col: 16>
+  <PUNCTUATOR, ")", Line: 43, Col: 17>
+  <PUNCTUATOR, ";", Line: 43, Col: 18>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 45, Col: 1>
+  <COMMENT, "## ERROR 6: Invalid operators/special characters
+", Line: 46, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 47, Col: 1>
+  <IDENTIFIER, "Value", Line: 48, Col: 1>
+  <ASSIGN_OP, "=", Line: 48, Col: 7>
+  <IDENTIFIER, "A", Line: 48, Col: 9>
+  <IDENTIFIER, "B", Line: 48, Col: 13>
+  <PUNCTUATOR, ";", Line: 48, Col: 14>
+  <IDENTIFIER, "Test", Line: 49, Col: 1>
+  <ASSIGN_OP, "=", Line: 49, Col: 6>
+  <IDENTIFIER, "X", Line: 49, Col: 8>
+  <IDENTIFIER, "Y", Line: 49, Col: 12>
+  <PUNCTUATOR, ";", Line: 49, Col: 13>
+  <IDENTIFIER, "Calc", Line: 50, Col: 1>
+  <ASSIGN_OP, "=", Line: 50, Col: 6>
+  <IDENTIFIER, "M", Line: 50, Col: 8>
+  <IDENTIFIER, "N", Line: 50, Col: 12>
+  <PUNCTUATOR, ";", Line: 50, Col: 13>
+  <IDENTIFIER, "Other", Line: 51, Col: 1>
+  <ASSIGN_OP, "=", Line: 51, Col: 7>
+  <IDENTIFIER, "P", Line: 51, Col: 9>
+  <IDENTIFIER, "Q", Line: 51, Col: 13>
+  <PUNCTUATOR, ";", Line: 51, Col: 14>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 53, Col: 1>
+  <COMMENT, "## ERROR 7: Unicode or special symbols
+", Line: 54, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 55, Col: 1>
+  <IDENTIFIER, "Greek", Line: 56, Col: 1>
+  <ASSIGN_OP, "=", Line: 56, Col: 7>
+  <PUNCTUATOR, ";", Line: 56, Col: 10>
+  <IDENTIFIER, "Euro", Line: 57, Col: 1>
+  <ASSIGN_OP, "=", Line: 57, Col: 6>
+  <PUNCTUATOR, ";", Line: 57, Col: 9>
+  <IDENTIFIER, "Degree", Line: 58, Col: 1>
+  <ASSIGN_OP, "=", Line: 58, Col: 8>
+  <INTEGER, "90", Line: 58, Col: 10>
+  <PUNCTUATOR, ";", Line: 58, Col: 13>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 60, Col: 1>
+  <COMMENT, "## ERROR 8: Unterminated tokens
+", Line: 61, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 62, Col: 1>
+  <IDENTIFIER, "Incomplete1", Line: 63, Col: 1>
+  <ASSIGN_OP, "=", Line: 63, Col: 13>
+  <ERROR, "10.5e", Line: 63, Col: 15>
+  <IDENTIFIER, "Incomplete2", Line: 64, Col: 1>
+  <ASSIGN_OP, "=", Line: 64, Col: 13>
+  <ARITH_OP, "+", Line: 64, Col: 15>
+  <IDENTIFIER, "Incomplete3", Line: 65, Col: 1>
+  <ASSIGN_OP, "=", Line: 65, Col: 13>
+  <ARITH_OP, "-", Line: 65, Col: 15>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 67, Col: 1>
+  <COMMENT, "## ERROR 9: Invalid punctuation sequences
+", Line: 68, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 69, Col: 1>
+  <IDENTIFIER, "Bad1", Line: 70, Col: 1>
+  <ASSIGN_OP, "=", Line: 70, Col: 6>
+  <PUNCTUATOR, ";", Line: 70, Col: 11>
+  <IDENTIFIER, "Bad2", Line: 71, Col: 1>
+  <ASSIGN_OP, "=", Line: 71, Col: 6>
+  <REL_OP, "<", Line: 71, Col: 8>
+  <REL_OP, "<", Line: 71, Col: 9>
+  <REL_OP, "<", Line: 71, Col: 10>
+  <PUNCTUATOR, ";", Line: 71, Col: 11>
+  <IDENTIFIER, "Bad3", Line: 72, Col: 1>
+  <ASSIGN_OP, "=", Line: 72, Col: 6>
+  <REL_OP, ">", Line: 72, Col: 8>
+  <REL_OP, ">", Line: 72, Col: 9>
+  <REL_OP, ">", Line: 72, Col: 10>
+  <PUNCTUATOR, ";", Line: 72, Col: 11>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 74, Col: 1>
+  <COMMENT, "## ERROR 10: Mixed valid and invalid
+", Line: 75, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 76, Col: 1>
+  <IDENTIFIER, "Valid1", Line: 77, Col: 1>
+  <ASSIGN_OP, "=", Line: 77, Col: 8>
+  <INTEGER, "42", Line: 77, Col: 10>
+  <PUNCTUATOR, ";", Line: 77, Col: 12>
+  <IDENTIFIER, "Invalid1", Line: 78, Col: 1>
+  <ASSIGN_OP, "=", Line: 78, Col: 10>
+  <PUNCTUATOR, ";", Line: 78, Col: 23>
+  <IDENTIFIER, "Valid2", Line: 79, Col: 1>
+  <ASSIGN_OP, "=", Line: 79, Col: 8>
+  <BOOLEAN, "TRUE", Line: 79, Col: 10>
+  <PUNCTUATOR, ";", Line: 79, Col: 14>
+  <IDENTIFIER, "Invalid2", Line: 80, Col: 1>
+  <ASSIGN_OP, "=", Line: 80, Col: 10>
+  <PUNCTUATOR, ";", Line: 80, Col: 22>
+  <IDENTIFIER, "Valid3", Line: 81, Col: 1>
+  <ASSIGN_OP, "=", Line: 81, Col: 8>
+  <FLOAT, "3.14", Line: 81, Col: 10>
+  <PUNCTUATOR, ";", Line: 81, Col: 14>
+  <COMMENT, "## End of test4.lang
+", Line: 83, Col: 1>
+  <COMMENT, "## Expected: Multiple lexical errors reported
+", Line: 84, Col: 1>
+  <EOF, "<EOF>", Line: 85, Col: 1>
+╚══════════════════════════════════════════════════════════════╝
+
+
+STATISTICS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                         STATISTICS                          ║
+╠══════════════════════════════════════════════════════════════╣
+  Total tokens            : 182
+  Lines processed         : 85
+  Comments removed        : 36
+  Unique identifiers      : 38
+  Lexical errors          : 125
+
+  Token breakdown:
+  Type                  Count
+  ──────────────────────────────
+  IDENTIFIER            45
+  INTEGER               15
+  FLOAT                 1
+  BOOLEAN               1
+  ARITH_OP              2
+  REL_OP                6
+  ASSIGN_OP             35
+  PUNCTUATOR            36
+  COMMENT               36
+  ERROR                 4
+  EOF                   1
+╚══════════════════════════════════════════════════════════════╝
+
+
+SYMBOL TABLE:
+SymbolTable@448139f0
+
+ERROR REPORT:
+ErrorHandler@7cca494b
+
+
+
+------------------------------------------------------------
+Reading from: D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test5.lang
+------------------------------------------------------------
+
+TOKENS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                        TOKEN STREAM                         ║
+╠══════════════════════════════════════════════════════════════╣
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 1, Col: 1>
+  <COMMENT, "## TEST 5: COMMENTS
+", Line: 2, Col: 1>
+  <COMMENT, "## Testing single-line comments in various positions
+", Line: 3, Col: 1>
+  <COMMENT, "## ═══════════════════════════════════════════════════════════
+", Line: 4, Col: 1>
+  <COMMENT, "## Comment at start of file
+", Line: 6, Col: 1>
+  <COMMENT, "## Multiple comment lines
+", Line: 7, Col: 1>
+  <COMMENT, "## All starting with ##
+", Line: 8, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 10, Col: 1>
+  <COMMENT, "## Comments before declarations
+", Line: 11, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 12, Col: 1>
+  <COMMENT, "## This is a counter variable
+", Line: 13, Col: 1>
+  <IDENTIFIER, "Counter", Line: 14, Col: 1>
+  <ASSIGN_OP, "=", Line: 14, Col: 9>
+  <INTEGER, "0", Line: 14, Col: 11>
+  <PUNCTUATOR, ";", Line: 14, Col: 12>
+  <COMMENT, "## This is a sum variable
+", Line: 16, Col: 1>
+  <IDENTIFIER, "Sum", Line: 17, Col: 1>
+  <ASSIGN_OP, "=", Line: 17, Col: 5>
+  <INTEGER, "100", Line: 17, Col: 7>
+  <PUNCTUATOR, ";", Line: 17, Col: 10>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 19, Col: 1>
+  <COMMENT, "## Comments after statements (inline-style)
+", Line: 20, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 21, Col: 1>
+  <IDENTIFIER, "X", Line: 22, Col: 1>
+  <ASSIGN_OP, "=", Line: 22, Col: 3>
+  <INTEGER, "10", Line: 22, Col: 5>
+  <PUNCTUATOR, ";", Line: 22, Col: 7>
+  <COMMENT, "## X is set to 10
+", Line: 22, Col: 13>
+  <IDENTIFIER, "Y", Line: 23, Col: 1>
+  <ASSIGN_OP, "=", Line: 23, Col: 3>
+  <INTEGER, "20", Line: 23, Col: 5>
+  <PUNCTUATOR, ";", Line: 23, Col: 7>
+  <COMMENT, "## Y is set to 20
+", Line: 23, Col: 13>
+  <IDENTIFIER, "Z", Line: 24, Col: 1>
+  <ASSIGN_OP, "=", Line: 24, Col: 3>
+  <IDENTIFIER, "X", Line: 24, Col: 5>
+  <ARITH_OP, "+", Line: 24, Col: 7>
+  <IDENTIFIER, "Y", Line: 24, Col: 9>
+  <PUNCTUATOR, ";", Line: 24, Col: 10>
+  <COMMENT, "## Z is sum of X and Y
+", Line: 24, Col: 13>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 26, Col: 1>
+  <COMMENT, "## Multiple consecutive comments
+", Line: 27, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 28, Col: 1>
+  <COMMENT, "## Comment line 1
+", Line: 29, Col: 1>
+  <COMMENT, "## Comment line 2
+", Line: 30, Col: 1>
+  <COMMENT, "## Comment line 3
+", Line: 31, Col: 1>
+  <COMMENT, "## Comment line 4
+", Line: 32, Col: 1>
+  <IDENTIFIER, "Value", Line: 33, Col: 1>
+  <ASSIGN_OP, "=", Line: 33, Col: 7>
+  <INTEGER, "42", Line: 33, Col: 9>
+  <PUNCTUATOR, ";", Line: 33, Col: 11>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 35, Col: 1>
+  <COMMENT, "## Comments with special characters
+", Line: 36, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 37, Col: 1>
+  <COMMENT, "## This is a comment with numbers: 123 456 789
+", Line: 38, Col: 1>
+  <COMMENT, "## This has operators: + - * / % ** == != && ||
+", Line: 39, Col: 1>
+  <COMMENT, "## This has punctuation: () {} [] , ; :
+", Line: 40, Col: 1>
+  <COMMENT, "## Special chars: @#$%^&*()
+", Line: 41, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 43, Col: 1>
+  <COMMENT, "## Empty comment (just ##)
+", Line: 44, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 45, Col: 1>
+  <COMMENT, "##
+", Line: 46, Col: 1>
+  <IDENTIFIER, "Total", Line: 47, Col: 1>
+  <ASSIGN_OP, "=", Line: 47, Col: 7>
+  <INTEGER, "1000", Line: 47, Col: 9>
+  <PUNCTUATOR, ";", Line: 47, Col: 13>
+  <COMMENT, "##
+", Line: 48, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 50, Col: 1>
+  <COMMENT, "## Very long comment line
+", Line: 51, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 52, Col: 1>
+  <COMMENT, "## This is a very long comment that goes on and on and on and includes lots of text to test how the scanner handles really long single-line comments with many many many words
+", Line: 53, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 55, Col: 1>
+  <COMMENT, "## Comments between expressions
+", Line: 56, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 57, Col: 1>
+  <IDENTIFIER, "A", Line: 58, Col: 1>
+  <ASSIGN_OP, "=", Line: 58, Col: 3>
+  <INTEGER, "10", Line: 58, Col: 5>
+  <PUNCTUATOR, ";", Line: 58, Col: 7>
+  <COMMENT, "## Comment between assignments
+", Line: 59, Col: 1>
+  <IDENTIFIER, "B", Line: 60, Col: 1>
+  <ASSIGN_OP, "=", Line: 60, Col: 3>
+  <INTEGER, "20", Line: 60, Col: 5>
+  <PUNCTUATOR, ";", Line: 60, Col: 7>
+  <COMMENT, "## Another comment
+", Line: 61, Col: 1>
+  <IDENTIFIER, "C", Line: 62, Col: 1>
+  <ASSIGN_OP, "=", Line: 62, Col: 3>
+  <IDENTIFIER, "A", Line: 62, Col: 5>
+  <ARITH_OP, "+", Line: 62, Col: 7>
+  <IDENTIFIER, "B", Line: 62, Col: 9>
+  <PUNCTUATOR, ";", Line: 62, Col: 10>
+  <COMMENT, "## Final comment
+", Line: 63, Col: 1>
+  <IDENTIFIER, "Result", Line: 64, Col: 1>
+  <ASSIGN_OP, "=", Line: 64, Col: 8>
+  <IDENTIFIER, "C", Line: 64, Col: 10>
+  <ARITH_OP, "*", Line: 64, Col: 12>
+  <INTEGER, "2", Line: 64, Col: 14>
+  <PUNCTUATOR, ";", Line: 64, Col: 15>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 66, Col: 1>
+  <COMMENT, "## Comment-heavy section
+", Line: 67, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 68, Col: 1>
+  <COMMENT, "## Setting up variables
+", Line: 69, Col: 1>
+  <COMMENT, "## First variable
+", Line: 70, Col: 1>
+  <IDENTIFIER, "Var1", Line: 71, Col: 1>
+  <ASSIGN_OP, "=", Line: 71, Col: 6>
+  <INTEGER, "1", Line: 71, Col: 8>
+  <PUNCTUATOR, ";", Line: 71, Col: 9>
+  <COMMENT, "## Second variable
+", Line: 72, Col: 1>
+  <IDENTIFIER, "Var2", Line: 73, Col: 1>
+  <ASSIGN_OP, "=", Line: 73, Col: 6>
+  <INTEGER, "2", Line: 73, Col: 8>
+  <PUNCTUATOR, ";", Line: 73, Col: 9>
+  <COMMENT, "## Third variable
+", Line: 74, Col: 1>
+  <IDENTIFIER, "Var3", Line: 75, Col: 1>
+  <ASSIGN_OP, "=", Line: 75, Col: 6>
+  <INTEGER, "3", Line: 75, Col: 8>
+  <PUNCTUATOR, ";", Line: 75, Col: 9>
+  <COMMENT, "## Computing sum
+", Line: 76, Col: 1>
+  <IDENTIFIER, "Sum_result", Line: 77, Col: 1>
+  <ASSIGN_OP, "=", Line: 77, Col: 12>
+  <IDENTIFIER, "Var1", Line: 77, Col: 14>
+  <ARITH_OP, "+", Line: 77, Col: 19>
+  <IDENTIFIER, "Var2", Line: 77, Col: 21>
+  <ARITH_OP, "+", Line: 77, Col: 26>
+  <IDENTIFIER, "Var3", Line: 77, Col: 28>
+  <PUNCTUATOR, ";", Line: 77, Col: 32>
+  <COMMENT, "## Done
+", Line: 78, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 80, Col: 1>
+  <COMMENT, "## Comments with code-like content (should be ignored)
+", Line: 81, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 82, Col: 1>
+  <COMMENT, "## X = 999;
+", Line: 83, Col: 1>
+  <COMMENT, "## Y = 888;
+", Line: 84, Col: 1>
+  <COMMENT, "## Z = X + Y;
+", Line: 85, Col: 1>
+  <IDENTIFIER, "Actual_value", Line: 86, Col: 1>
+  <ASSIGN_OP, "=", Line: 86, Col: 14>
+  <INTEGER, "100", Line: 86, Col: 16>
+  <PUNCTUATOR, ";", Line: 86, Col: 19>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 88, Col: 1>
+  <COMMENT, "## Final comments
+", Line: 89, Col: 1>
+  <COMMENT, "## ───────────────────────────────────────────────────────────
+", Line: 90, Col: 1>
+  <COMMENT, "## This is near the end
+", Line: 91, Col: 1>
+  <IDENTIFIER, "Final", Line: 92, Col: 1>
+  <ASSIGN_OP, "=", Line: 92, Col: 7>
+  <BOOLEAN, "TRUE", Line: 92, Col: 9>
+  <PUNCTUATOR, ";", Line: 92, Col: 13>
+  <COMMENT, "## This is the last comment in the file
+", Line: 93, Col: 1>
+  <COMMENT, "## End of test5.lang
+", Line: 95, Col: 1>
+  <EOF, "<EOF>", Line: 96, Col: 1>
+╚══════════════════════════════════════════════════════════════╝
+
+
+STATISTICS:
+
+╔══════════════════════════════════════════════════════════════╗
+║                         STATISTICS                          ║
+╠══════════════════════════════════════════════════════════════╣
+  Total tokens            : 147
+  Lines processed         : 96
+  Comments removed        : 68
+  Unique identifiers      : 17
+  Lexical errors          : 0
+
+  Token breakdown:
+  Type                  Count
+  ──────────────────────────────
+  IDENTIFIER            25
+  INTEGER               13
+  BOOLEAN               1
+  ARITH_OP              5
+  ASSIGN_OP             17
+  PUNCTUATOR            17
+  COMMENT               68
+  EOF                   1
+╚══════════════════════════════════════════════════════════════╝
+
+
+SYMBOL TABLE:
+SymbolTable@7ba4f24f
+
+ERROR REPORT:
+ErrorHandler@3b9a45b3
+
+
+

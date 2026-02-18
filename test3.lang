@@ -1,0 +1,42 @@
+## ═══════════════════════════════════════════════════════════
+## TEST 3: STRING/CHAR LITERALS (NOT SUPPORTED)
+## This scanner does NOT implement strings or characters
+## These will be recognized as ERRORS
+## ═══════════════════════════════════════════════════════════
+
+## NOTE: The DFA-based scanner only implements:
+##   1. Integers, 2. Floats, 3. Identifiers, 4. Booleans
+##   5. Operators, 6. Punctuators, 7. Comments
+##
+## Strings and characters are NOT in the DFA specification,
+## so they will be tokenized as individual characters/errors.
+
+## Valid tokens first
+Counter = 42;
+Name = 100;
+
+## Attempting strings (will cause errors - quotes are invalid)
+Message = "Hello World";
+Text = "This is a test";
+Quote = "She said \"hello\"";
+
+## Attempting character literals (will cause errors)
+Letter = 'A';
+Newline = '\n';
+Tab = '\t';
+
+## Mix of valid and invalid
+Valid_number = 123;
+Invalid_string = "test";
+Valid_bool = TRUE;
+Invalid_char = 'x';
+
+## Escape sequences (all invalid in this scanner)
+Escaped1 = "Line1\nLine2";
+Escaped2 = "Tab\there";
+Escaped3 = "Quote\"inside";
+Escaped4 = 'a';
+Escaped5 = '\'';
+
+## End of test3.lang
+## Expected: Many lexical errors for quotes and string content

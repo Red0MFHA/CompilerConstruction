@@ -24,6 +24,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
+
 public class ManualScanner {
 
     // ════════════════════════════════════════════════════════════════════
@@ -122,6 +123,7 @@ public class ManualScanner {
     public List<Token> getTokens()          { return Collections.unmodifiableList(tokens); }
     public SymbolTable getSymbolTable()     { return symTable;   }
     public ErrorHandler getErrorHandler()   { return errHandler; }
+    public int getLineCount()               { return line;       }
 
     // ════════════════════════════════════════════════════════════════════
     //  TOKEN DISPATCHER
@@ -651,50 +653,180 @@ public class ManualScanner {
         }
         System.out.println(  "╚══════════════════════════════════════════════════════════════╝");
     }
+    public String getTokensAsString() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("\n╔══════════════════════════════════════════════════════════════╗\n");
+        sb.append(  "║                        TOKEN STREAM                         ║\n");
+        sb.append(  "╠══════════════════════════════════════════════════════════════╣\n");
+
+        for (Token t : tokens) {
+            sb.append("  ").append(t).append("\n");
+        }
+
+        sb.append(  "╚══════════════════════════════════════════════════════════════╝\n");
+
+        return sb.toString();
+    }
+    public String getStatisticsAsString() {
+
+        Map<TokenType, Integer> counts = new EnumMap<>(TokenType.class);
+        for (Token t : tokens) {
+            counts.merge(t.getType(), 1, Integer::sum);
+        }
+
+        int commentCount = counts.getOrDefault(TokenType.COMMENT, 0);
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("\n╔══════════════════════════════════════════════════════════════╗\n");
+        sb.append(  "║                         STATISTICS                          ║\n");
+        sb.append(  "╠══════════════════════════════════════════════════════════════╣\n");
+
+        sb.append(String.format("  Total tokens            : %d%n", tokens.size()));
+        sb.append(String.format("  Lines processed         : %d%n", line));
+        sb.append(String.format("  Comments removed        : %d%n", commentCount));
+        sb.append(String.format("  Unique identifiers      : %d%n", symTable.size()));
+        sb.append(String.format("  Lexical errors          : %d%n", errHandler.errorCount()));
+
+        sb.append("\n  Token breakdown:\n");
+        sb.append(String.format("  %-20s  Count%n", "Type"));
+        sb.append("  ").append("─".repeat(30)).append("\n");
+
+        for (TokenType tt : TokenType.values()) {
+            int c = counts.getOrDefault(tt, 0);
+            if (c > 0) {
+                sb.append(String.format("  %-20s  %d%n", tt, c));
+            }
+        }
+
+        sb.append("╚══════════════════════════════════════════════════════════════╝\n");
+
+        return sb.toString();
+    }
 
     // ════════════════════════════════════════════════════════════════════
     //  MAIN - TEST DRIVER
     // ════════════════════════════════════════════════════════════════════
 
-    public static void main(String[] args) {
-        String source;
+//    public static void main(String[] args) {
+//        String source;
+//
+//        // ──────────────────────────────────────────────────────────────────
+//        // OPTION 1: HARDCODED FILE PATH (easy for IntelliJ "Run" button)
+//        // ──────────────────────────────────────────────────────────────────
+//        // Uncomment the line below and put your test file path here:
+//        String HARDCODED_PATH = "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test1.lang";
+//
+//        // For Windows: use double backslashes    "C:\\Users\\..\\test.txt"
+//        // For Mac/Linux: use forward slashes     "/Users/../test.txt"
+//        //String HARDCODED_PATH = null;  // Set to null to disable
+//
+//        if (HARDCODED_PATH != null) {
+//            // Use hardcoded path
+//            try {
+//                source = new String(Files.readAllBytes(Paths.get(HARDCODED_PATH)));
+//                System.out.println("Reading from: " + HARDCODED_PATH);
+//            } catch (IOException e) {
+//                System.err.println("Error reading file: " + e.getMessage());
+//                System.err.println("Make sure the path is correct!");
+//                return;
+//            }
+//        } else if (args.length > 0) {
+//            // Use command-line argument
+//            try {
+//                source = new String(Files.readAllBytes(Paths.get(args[0])));
+//                System.out.println("Reading from: " + args[0]);
+//            } catch (IOException e) {
+//                System.err.println("Error reading file: " + e.getMessage());
+//                return;
+//            }
+//        } else {
+//            // Use built-in mini test
+//            source =
+//                "## This is a comment\n" +
+//                "Count = 42;\n" +
+//                "Pi = 3.14159;\n" +
+//                "Avogadro = 6.022e23;\n" +
+//                "Flag = TRUE;\n" +
+//                "Result = FALSE;\n" +
+//                "X = X + 1;\n" +
+//                "Y++;\n" +
+//                "Z = A ** B;\n" +
+//                "Test_var = 100;\n" +
+//                "(X >= Y) && (Z <= 10);\n" +
+//                "Array[5];\n";
+//            System.out.println("Using built-in test code");
+//        }
+//
+//        System.out.println("══════════════════════════════════════════════════════════════");
+//        System.out.println("  CS4031 Manual Scanner – Minimal Implementation");
+//        System.out.println("══════════════════════════════════════════════════════════════\n");
+//
+//        ManualScanner scanner = new ManualScanner(source);
+//        scanner.scan();
+//
+//        scanner.printTokens();
+//        scanner.printStatistics();
+//        scanner.getSymbolTable().print();
+//        scanner.getErrorHandler().printReport();
+//    }
+public static void main(String[] args) {
 
-        if (args.length > 0) {
-            // Read from file
+    // List of test files
+    String[] testFiles = {
+            "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test1.lang",
+            "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test2.lang",
+            "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test3.lang",
+            "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test4.lang",
+            "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/test5.lang"
+    };
+
+    // Output file
+    String outputFile = "D:/Work/JAVA/COmpiler construction/COMPILER_CONSTRUCTION_PROJECT/Test_Result.txt";
+
+    try (PrintWriter writer = new PrintWriter(new FileWriter(outputFile))) {
+
+        writer.println("══════════════════════════════════════════════════════════════");
+        writer.println("        CS4031 Manual Scanner - All Test Results");
+        writer.println("══════════════════════════════════════════════════════════════\n");
+
+        for (String filePath : testFiles) {
+
+            writer.println("------------------------------------------------------------");
+            writer.println("Reading from: " + filePath);
+            writer.println("------------------------------------------------------------");
+
             try {
-                source = new String(Files.readAllBytes(Paths.get(args[0])));
+                String source = new String(Files.readAllBytes(Paths.get(filePath)));
+
+                ManualScanner scanner = new ManualScanner(source);
+                scanner.scan();
+
+                // Capture scanner output
+                writer.println("\nTOKENS:");
+                writer.println(scanner.getTokensAsString());
+
+                writer.println("\nSTATISTICS:");
+                writer.println(scanner.getStatisticsAsString());
+
+                writer.println("\nSYMBOL TABLE:");
+                writer.println(scanner.getSymbolTable().toString());
+
+                writer.println("\nERROR REPORT:");
+                writer.println(scanner.getErrorHandler().toString());
+
+                writer.println("\n\n");
+
             } catch (IOException e) {
-                System.err.println("Error reading file: " + e.getMessage());
-                return;
+                writer.println("Error reading file: " + e.getMessage());
             }
-        } else {
-            // Built-in test
-            source =
-                "## This is a comment\n" +
-                "Count = 42;\n" +
-                "Pi = 3.14159;\n" +
-                "Avogadro = 6.022e23;\n" +
-                "Flag = TRUE;\n" +
-                "Result = FALSE;\n" +
-                "X = X + 1;\n" +
-                "Y++;\n" +
-                "Z = A ** B;\n" +
-                "Test_var = 100;\n" +
-                "(X >= Y) && (Z <= 10);\n" +
-                "Array[5];\n" +
-                "{ 1, 2, 3 };\n";
         }
 
-        System.out.println("══════════════════════════════════════════════════════════════");
-        System.out.println("  CS4031 Manual Scanner – Minimal Implementation");
-        System.out.println("══════════════════════════════════════════════════════════════");
+        System.out.println("All test results written to: " + outputFile);
 
-        ManualScanner scanner = new ManualScanner(source);
-        scanner.scan();
-
-        scanner.printTokens();
-        scanner.printStatistics();
-        scanner.getSymbolTable().print();
-        scanner.getErrorHandler().printReport();
+    } catch (IOException e) {
+        System.err.println("Error writing result file: " + e.getMessage());
     }
+}
 }

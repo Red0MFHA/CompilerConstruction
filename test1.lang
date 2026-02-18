@@ -1,0 +1,105 @@
+## ═══════════════════════════════════════════════════════════
+## TEST 1: ALL VALID TOKENS
+## Comprehensive test of all 7 token categories
+## ═══════════════════════════════════════════════════════════
+
+## ───────────────────────────────────────────────────────────
+## Category 1: INTEGER LITERALS
+## ───────────────────────────────────────────────────────────
+Simple_int = 42;
+Positive_int = +100;
+Negative_int = -567;
+Zero = 0;
+Large_number = 999999;
+
+## ───────────────────────────────────────────────────────────
+## Category 2: IDENTIFIERS
+## ───────────────────────────────────────────────────────────
+Counter = 1;
+Total_sum = 100;
+Variable_name_123 = 50;
+X = 10;
+Y = 20;
+Z = 30;
+Test_var = 999;
+My_identifier = 0;
+
+## ───────────────────────────────────────────────────────────
+## Category 4: FLOATING POINT LITERALS
+## ───────────────────────────────────────────────────────────
+Pi = 3.14159;
+Euler = 2.71828;
+Negative_float = -0.5;
+Positive_float = +1.618;
+Small_decimal = 0.001;
+
+## Floating point with exponents
+Speed_of_light = 3.0e8;
+Avogadro = 6.022e23;
+Planck_constant = 6.626e-34;
+Large_num = 1.5E10;
+Tiny_num = 2.5E-20;
+
+## ───────────────────────────────────────────────────────────
+## Category 5: BOOLEAN LITERALS
+## ───────────────────────────────────────────────────────────
+Is_active = TRUE;
+Is_done = FALSE;
+Flag = TRUE;
+Status = FALSE;
+
+## ───────────────────────────────────────────────────────────
+## Category 6.1: RELATIONAL OPERATORS
+## ───────────────────────────────────────────────────────────
+Result1 = (X == Y);
+Result2 = (A != B);
+Result3 = (M < N);
+Result4 = (P <= Q);
+Result5 = (R > S);
+Result6 = (T >= U);
+
+## ───────────────────────────────────────────────────────────
+## Category 6.2: ARITHMETIC OPERATORS
+## ───────────────────────────────────────────────────────────
+Sum = A + B;
+Difference = X - Y;
+Product = M * N;
+Quotient = P / Q;
+Remainder = R % S;
+Power = Base ** Exponent;
+
+## ───────────────────────────────────────────────────────────
+## Category 6.3: LOGICAL OPERATORS
+## ───────────────────────────────────────────────────────────
+And_result = (X > 0) && (Y < 10);
+Or_result = (A == B) || (C != D);
+Not_result = !Flag;
+
+## ───────────────────────────────────────────────────────────
+## Category 6.4: ASSIGNMENT OPERATORS
+## ───────────────────────────────────────────────────────────
+Value = 100;
+Value += 50;
+Value -= 20;
+Value *= 2;
+Value /= 4;
+
+## ───────────────────────────────────────────────────────────
+## Category 6.5: INCREMENT/DECREMENT OPERATORS
+## ───────────────────────────────────────────────────────────
+Counter++;
+Index--;
+++Prefix_inc;
+--Prefix_dec;
+
+## ───────────────────────────────────────────────────────────
+## Category 7: PUNCTUATORS
+## ───────────────────────────────────────────────────────────
+Array[0];
+Matrix[5];
+List[10];
+{A, B, C};
+(X, Y, Z);
+Group: [1, 2, 3];
+
+## End of test1.lang

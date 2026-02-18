@@ -1,0 +1,95 @@
+## ═══════════════════════════════════════════════════════════
+## TEST 5: COMMENTS
+## Testing single-line comments in various positions
+## ═══════════════════════════════════════════════════════════
+
+## Comment at start of file
+## Multiple comment lines
+## All starting with ##
+
+## ───────────────────────────────────────────────────────────
+## Comments before declarations
+## ───────────────────────────────────────────────────────────
+## This is a counter variable
+Counter = 0;
+
+## This is a sum variable
+Sum = 100;
+
+## ───────────────────────────────────────────────────────────
+## Comments after statements (inline-style)
+## ───────────────────────────────────────────────────────────
+X = 10;     ## X is set to 10
+Y = 20;     ## Y is set to 20
+Z = X + Y;  ## Z is sum of X and Y
+
+## ───────────────────────────────────────────────────────────
+## Multiple consecutive comments
+## ───────────────────────────────────────────────────────────
+## Comment line 1
+## Comment line 2
+## Comment line 3
+## Comment line 4
+Value = 42;
+
+## ───────────────────────────────────────────────────────────
+## Comments with special characters
+## ───────────────────────────────────────────────────────────
+## This is a comment with numbers: 123 456 789
+## This has operators: + - * / % ** == != && ||
+## This has punctuation: () {} [] , ; :
+## Special chars: @#$%^&*()
+
+## ───────────────────────────────────────────────────────────
+## Empty comment (just ##)
+## ───────────────────────────────────────────────────────────
+##
+Total = 1000;
+##
+
+## ───────────────────────────────────────────────────────────
+## Very long comment line
+## ───────────────────────────────────────────────────────────
+## This is a very long comment that goes on and on and on and includes lots of text to test how the scanner handles really long single-line comments with many many many words
+
+## ───────────────────────────────────────────────────────────
+## Comments between expressions
+## ───────────────────────────────────────────────────────────
+A = 10;
+## Comment between assignments
+B = 20;
+## Another comment
+C = A + B;
+## Final comment
+Result = C * 2;
+
+## ───────────────────────────────────────────────────────────
+## Comment-heavy section
+## ───────────────────────────────────────────────────────────
+## Setting up variables
+## First variable
+Var1 = 1;
+## Second variable
+Var2 = 2;
+## Third variable
+Var3 = 3;
+## Computing sum
+Sum_result = Var1 + Var2 + Var3;
+## Done
+
+## ───────────────────────────────────────────────────────────
+## Comments with code-like content (should be ignored)
+## ───────────────────────────────────────────────────────────
+## X = 999;
+## Y = 888;
+## Z = X + Y;
+Actual_value = 100;
+
+## ───────────────────────────────────────────────────────────
+## Final comments
+## ───────────────────────────────────────────────────────────
+## This is near the end
+Final = TRUE;
+## This is the last comment in the file
+
+## End of test5.lang
