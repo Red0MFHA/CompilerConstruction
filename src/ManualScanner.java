@@ -1,7 +1,5 @@
 /**
- * ManualScanner.java
- * ─────────────────────────────────────────────────────────────────────────
- * Minimal DFA-based Lexical Analyzer
+
  * 
  * Implements ONLY these 7 token categories:
  *   1. Integer Literal         [+-]?[0-9]+
@@ -17,7 +15,6 @@
  *      - Inc/Dec: ++ --
  *   7. Punctuators:            [ ] ( ) { } , ; :
  *
- * CS4031 – Compiler Construction | Assignment 01
  */
 
 import java.io.*;

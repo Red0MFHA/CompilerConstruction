@@ -2,7 +2,6 @@
  * TokenType.java
  * Enumeration of token types - MATCHES MERMAID DFA DIAGRAM EXACTLY
  *
- * CS4031 - Compiler Construction | Assignment 01
  */
 public enum TokenType {
 

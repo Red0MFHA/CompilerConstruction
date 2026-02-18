@@ -1,11 +1,8 @@
 /**
- * ErrorHandler.java
  * Collects lexical errors and prints a formatted error report.
- * Supports continued scanning after errors (panic-mode recovery).
  *
  * Error format:  [LEXICAL ERROR] <type> at Line: L, Col: C  |  lexeme: "x"  |  reason
  *
- * CS4031 - Compiler Construction | Assignment 01
  */
 import java.util.ArrayList;
 import java.util.List;

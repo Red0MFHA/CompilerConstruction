@@ -4,7 +4,6 @@
  *
  * Output format:  <KEYWORD, "start", Line: 1, Col: 1>
  *
- * CS4031 - Compiler Construction | Assignment 01
  */
 public class Token {
 

@@ -1,9 +1,7 @@
 /**
- * SymbolTable.java
  * Tracks every IDENTIFIER token: name, inferred type, first occurrence,
  * and how many times it appears in the source.
  *
- * CS4031 - Compiler Construction | Assignment 01
  */
 import java.util.LinkedHashMap;
 import java.util.Map;
