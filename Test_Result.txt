@@ -416,10 +416,83 @@ STATISTICS:
 
 
 SYMBOL TABLE:
-SymbolTable@776ec8df
+
+╔══════════════════════════════════════════════════════════════╗
+║                        SYMBOL TABLE                         ║
+╠══════════════════════════════════════════════════════════════╣
+  Identifier                | Type       | First Seen     | Freq
+  ────────────────────────────────────────────────────────────
+  Simple_int                | UNKNOWN    | Line: 9     Col: 1    | Freq: 1
+  Positive_int              | UNKNOWN    | Line: 10    Col: 1    | Freq: 1
+  Negative_int              | UNKNOWN    | Line: 11    Col: 1    | Freq: 1
+  Zero                      | UNKNOWN    | Line: 12    Col: 1    | Freq: 1
+  Large_number              | UNKNOWN    | Line: 13    Col: 1    | Freq: 1
+  Counter                   | UNKNOWN    | Line: 18    Col: 1    | Freq: 2
+  Total_sum                 | UNKNOWN    | Line: 19    Col: 1    | Freq: 1
+  Variable_name_123         | UNKNOWN    | Line: 20    Col: 1    | Freq: 1
+  X                         | UNKNOWN    | Line: 21    Col: 1    | Freq: 5
+  Y                         | UNKNOWN    | Line: 22    Col: 1    | Freq: 5
+  Z                         | UNKNOWN    | Line: 23    Col: 1    | Freq: 2
+  Test_var                  | UNKNOWN    | Line: 24    Col: 1    | Freq: 1
+  My_identifier             | UNKNOWN    | Line: 25    Col: 1    | Freq: 1
+  Pi                        | UNKNOWN    | Line: 30    Col: 1    | Freq: 1
+  Euler                     | UNKNOWN    | Line: 31    Col: 1    | Freq: 1
+  Negative_float            | UNKNOWN    | Line: 32    Col: 1    | Freq: 1
+  Positive_float            | UNKNOWN    | Line: 33    Col: 1    | Freq: 1
+  Small_decimal             | UNKNOWN    | Line: 34    Col: 1    | Freq: 1
+  Speed_of_light            | UNKNOWN    | Line: 37    Col: 1    | Freq: 1
+  Avogadro                  | UNKNOWN    | Line: 38    Col: 1    | Freq: 1
+  Planck_constant           | UNKNOWN    | Line: 39    Col: 1    | Freq: 1
+  Large_num                 | UNKNOWN    | Line: 40    Col: 1    | Freq: 1
+  Tiny_num                  | UNKNOWN    | Line: 41    Col: 1    | Freq: 1
+  Is_active                 | UNKNOWN    | Line: 46    Col: 1    | Freq: 1
+  Is_done                   | UNKNOWN    | Line: 47    Col: 1    | Freq: 1
+  Flag                      | UNKNOWN    | Line: 48    Col: 1    | Freq: 2
+  Status                    | UNKNOWN    | Line: 49    Col: 1    | Freq: 1
+  Result1                   | UNKNOWN    | Line: 54    Col: 1    | Freq: 1
+  Result2                   | UNKNOWN    | Line: 55    Col: 1    | Freq: 1
+  A                         | UNKNOWN    | Line: 55    Col: 12   | Freq: 4
+  B                         | UNKNOWN    | Line: 55    Col: 17   | Freq: 4
+  Result3                   | UNKNOWN    | Line: 56    Col: 1    | Freq: 1
+  M                         | UNKNOWN    | Line: 56    Col: 12   | Freq: 2
+  N                         | UNKNOWN    | Line: 56    Col: 16   | Freq: 2
+  Result4                   | UNKNOWN    | Line: 57    Col: 1    | Freq: 1
+  P                         | UNKNOWN    | Line: 57    Col: 12   | Freq: 2
+  Q                         | UNKNOWN    | Line: 57    Col: 17   | Freq: 2
+  Result5                   | UNKNOWN    | Line: 58    Col: 1    | Freq: 1
+  R                         | UNKNOWN    | Line: 58    Col: 12   | Freq: 2
+  S                         | UNKNOWN    | Line: 58    Col: 16   | Freq: 2
+  Result6                   | UNKNOWN    | Line: 59    Col: 1    | Freq: 1
+  T                         | UNKNOWN    | Line: 59    Col: 12   | Freq: 1
+  U                         | UNKNOWN    | Line: 59    Col: 17   | Freq: 1
+  Sum                       | UNKNOWN    | Line: 64    Col: 1    | Freq: 1
+  Difference                | UNKNOWN    | Line: 65    Col: 1    | Freq: 1
+  Product                   | UNKNOWN    | Line: 66    Col: 1    | Freq: 1
+  Quotient                  | UNKNOWN    | Line: 67    Col: 1    | Freq: 1
+  Remainder                 | UNKNOWN    | Line: 68    Col: 1    | Freq: 1
+  Power                     | UNKNOWN    | Line: 69    Col: 1    | Freq: 1
+  Base                      | UNKNOWN    | Line: 69    Col: 9    | Freq: 1
+  Exponent                  | UNKNOWN    | Line: 69    Col: 17   | Freq: 1
+  And_result                | UNKNOWN    | Line: 74    Col: 1    | Freq: 1
+  Or_result                 | UNKNOWN    | Line: 75    Col: 1    | Freq: 1
+  C                         | UNKNOWN    | Line: 75    Col: 26   | Freq: 2
+  D                         | UNKNOWN    | Line: 75    Col: 31   | Freq: 1
+  Not_result                | UNKNOWN    | Line: 76    Col: 1    | Freq: 1
+  Value                     | UNKNOWN    | Line: 81    Col: 1    | Freq: 5
+  Index                     | UNKNOWN    | Line: 91    Col: 1    | Freq: 1
+  Prefix_inc                | UNKNOWN    | Line: 92    Col: 3    | Freq: 1
+  Prefix_dec                | UNKNOWN    | Line: 93    Col: 3    | Freq: 1
+  Array                     | UNKNOWN    | Line: 98    Col: 1    | Freq: 1
+  Matrix                    | UNKNOWN    | Line: 99    Col: 1    | Freq: 1
+  List                      | UNKNOWN    | Line: 100   Col: 1    | Freq: 1
+  Group                     | UNKNOWN    | Line: 103   Col: 1    | Freq: 1
+╚══════════════════════════════════════════════════════════════╝
+
 
 ERROR REPORT:
-ErrorHandler@4eec7777
+
+✔  No lexical errors detected.
+
 
 
 
@@ -1183,10 +1256,105 @@ STATISTICS:
 
 
 SYMBOL TABLE:
-SymbolTable@3b07d329
+
+╔══════════════════════════════════════════════════════════════╗
+║                        SYMBOL TABLE                         ║
+╠══════════════════════════════════════════════════════════════╣
+  Identifier                | Type       | First Seen     | Freq
+  ────────────────────────────────────────────────────────────
+  Result1                   | UNKNOWN    | Line: 7     Col: 1    | Freq: 1
+  A                         | UNKNOWN    | Line: 7     Col: 12   | Freq: 15
+  B                         | UNKNOWN    | Line: 7     Col: 16   | Freq: 15
+  C                         | UNKNOWN    | Line: 7     Col: 22   | Freq: 13
+  D                         | UNKNOWN    | Line: 7     Col: 26   | Freq: 10
+  E                         | UNKNOWN    | Line: 7     Col: 31   | Freq: 8
+  Result2                   | UNKNOWN    | Line: 8     Col: 1    | Freq: 1
+  X                         | UNKNOWN    | Line: 8     Col: 13   | Freq: 11
+  Y                         | UNKNOWN    | Line: 8     Col: 24   | Freq: 11
+  Result3                   | UNKNOWN    | Line: 9     Col: 1    | Freq: 1
+  M                         | UNKNOWN    | Line: 9     Col: 12   | Freq: 3
+  N                         | UNKNOWN    | Line: 9     Col: 16   | Freq: 3
+  P                         | UNKNOWN    | Line: 9     Col: 22   | Freq: 3
+  Q                         | UNKNOWN    | Line: 9     Col: 26   | Freq: 3
+  R                         | UNKNOWN    | Line: 9     Col: 32   | Freq: 3
+  S                         | UNKNOWN    | Line: 9     Col: 36   | Freq: 3
+  Deep                      | UNKNOWN    | Line: 12    Col: 1    | Freq: 1
+  Complex_calc              | UNKNOWN    | Line: 13    Col: 1    | Freq: 1
+  Expression1               | UNKNOWN    | Line: 16    Col: 1    | Freq: 1
+  Expression2               | UNKNOWN    | Line: 17    Col: 1    | Freq: 1
+  Z                         | UNKNOWN    | Line: 17    Col: 24   | Freq: 6
+  W                         | UNKNOWN    | Line: 17    Col: 28   | Freq: 1
+  V                         | UNKNOWN    | Line: 17    Col: 32   | Freq: 1
+  Expression3               | UNKNOWN    | Line: 18    Col: 1    | Freq: 1
+  Comparison1               | UNKNOWN    | Line: 21    Col: 1    | Freq: 1
+  Comparison2               | UNKNOWN    | Line: 22    Col: 1    | Freq: 1
+  Comparison3               | UNKNOWN    | Line: 23    Col: 1    | Freq: 1
+  Logic1                    | UNKNOWN    | Line: 26    Col: 1    | Freq: 1
+  F                         | UNKNOWN    | Line: 26    Col: 38   | Freq: 4
+  Logic2                    | UNKNOWN    | Line: 27    Col: 1    | Freq: 1
+  Logic3                    | UNKNOWN    | Line: 28    Col: 1    | Freq: 1
+  T                         | UNKNOWN    | Line: 28    Col: 38   | Freq: 1
+  U                         | UNKNOWN    | Line: 28    Col: 43   | Freq: 1
+  Total                     | UNKNOWN    | Line: 31    Col: 1    | Freq: 5
+  G                         | UNKNOWN    | Line: 35    Col: 11   | Freq: 3
+  H                         | UNKNOWN    | Line: 35    Col: 15   | Freq: 3
+  Element1                  | UNKNOWN    | Line: 38    Col: 1    | Freq: 1
+  Array                     | UNKNOWN    | Line: 38    Col: 12   | Freq: 1
+  Element2                  | UNKNOWN    | Line: 39    Col: 1    | Freq: 1
+  Matrix                    | UNKNOWN    | Line: 39    Col: 12   | Freq: 1
+  Row                       | UNKNOWN    | Line: 39    Col: 19   | Freq: 1
+  Cols                      | UNKNOWN    | Line: 39    Col: 25   | Freq: 1
+  Col                       | UNKNOWN    | Line: 39    Col: 32   | Freq: 1
+  Element3                  | UNKNOWN    | Line: 40    Col: 1    | Freq: 1
+  Data                      | UNKNOWN    | Line: 40    Col: 12   | Freq: 1
+  Index                     | UNKNOWN    | Line: 40    Col: 18   | Freq: 2
+  Value1                    | UNKNOWN    | Line: 43    Col: 1    | Freq: 1
+  Counter                   | UNKNOWN    | Line: 43    Col: 10   | Freq: 1
+  Offset                    | UNKNOWN    | Line: 43    Col: 22   | Freq: 1
+  Value2                    | UNKNOWN    | Line: 44    Col: 1    | Freq: 1
+  Scale                     | UNKNOWN    | Line: 44    Col: 20   | Freq: 1
+  Value3                    | UNKNOWN    | Line: 45    Col: 1    | Freq: 1
+  Force                     | UNKNOWN    | Line: 48    Col: 1    | Freq: 1
+  Mass                      | UNKNOWN    | Line: 48    Col: 9    | Freq: 2
+  Velocity                  | UNKNOWN    | Line: 48    Col: 17   | Freq: 1
+  Energy                    | UNKNOWN    | Line: 49    Col: 1    | Freq: 1
+  Speed                     | UNKNOWN    | Line: 49    Col: 24   | Freq: 1
+  Distance                  | UNKNOWN    | Line: 50    Col: 1    | Freq: 1
+  Initial_velocity          | UNKNOWN    | Line: 50    Col: 13   | Freq: 1
+  Time                      | UNKNOWN    | Line: 50    Col: 32   | Freq: 2
+  Acceleration              | UNKNOWN    | Line: 50    Col: 47   | Freq: 1
+  Is_valid                  | UNKNOWN    | Line: 53    Col: 1    | Freq: 1
+  Age                       | UNKNOWN    | Line: 53    Col: 14   | Freq: 2
+  Is_special                | UNKNOWN    | Line: 53    Col: 45   | Freq: 1
+  Can_proceed               | UNKNOWN    | Line: 54    Col: 1    | Freq: 1
+  Score                     | UNKNOWN    | Line: 54    Col: 17   | Freq: 1
+  Attempts                  | UNKNOWN    | Line: 54    Col: 33   | Freq: 1
+  Override                  | UNKNOWN    | Line: 54    Col: 52   | Freq: 1
+  Should_retry              | UNKNOWN    | Line: 55    Col: 1    | Freq: 1
+  Failures                  | UNKNOWN    | Line: 55    Col: 18   | Freq: 1
+  Max_retries               | UNKNOWN    | Line: 55    Col: 30   | Freq: 1
+  Time_elapsed              | UNKNOWN    | Line: 55    Col: 47   | Freq: 1
+  Timeout                   | UNKNOWN    | Line: 55    Col: 62   | Freq: 1
+  Is_cancelled              | UNKNOWN    | Line: 55    Col: 77   | Freq: 1
+  Shifted_left              | UNKNOWN    | Line: 58    Col: 1    | Freq: 1
+  Value                     | UNKNOWN    | Line: 58    Col: 16   | Freq: 2
+  Shifted_right             | UNKNOWN    | Line: 59    Col: 1    | Freq: 1
+  Combined                  | UNKNOWN    | Line: 60    Col: 1    | Freq: 1
+  Result                    | UNKNOWN    | Line: 64    Col: 1    | Freq: 1
+  Final                     | UNKNOWN    | Line: 65    Col: 1    | Freq: 1
+  Ultimate                  | UNKNOWN    | Line: 68    Col: 1    | Freq: 1
+  I                         | UNKNOWN    | Line: 68    Col: 75   | Freq: 2
+  J                         | UNKNOWN    | Line: 68    Col: 79   | Freq: 1
+  K                         | UNKNOWN    | Line: 68    Col: 85   | Freq: 1
+  L                         | UNKNOWN    | Line: 68    Col: 89   | Freq: 1
+  Mega_expression           | UNKNOWN    | Line: 75    Col: 1    | Freq: 1
+╚══════════════════════════════════════════════════════════════╝
+
 
 ERROR REPORT:
-ErrorHandler@41629346
+
+✔  No lexical errors detected.
+
 
 
 
@@ -1328,10 +1496,122 @@ STATISTICS:
 
 
 SYMBOL TABLE:
-SymbolTable@3d075dc0
+
+╔══════════════════════════════════════════════════════════════╗
+║                        SYMBOL TABLE                         ║
+╠══════════════════════════════════════════════════════════════╣
+  Identifier                | Type       | First Seen     | Freq
+  ────────────────────────────────────────────────────────────
+  Counter                   | UNKNOWN    | Line: 15    Col: 1    | Freq: 1
+  Name                      | UNKNOWN    | Line: 16    Col: 1    | Freq: 1
+  Message                   | UNKNOWN    | Line: 19    Col: 1    | Freq: 1
+  Hello                     | UNKNOWN    | Line: 19    Col: 12   | Freq: 1
+  World                     | UNKNOWN    | Line: 19    Col: 18   | Freq: 1
+  Text                      | UNKNOWN    | Line: 20    Col: 1    | Freq: 1
+  This                      | UNKNOWN    | Line: 20    Col: 9    | Freq: 1
+  Quote                     | UNKNOWN    | Line: 21    Col: 1    | Freq: 2
+  She                       | UNKNOWN    | Line: 21    Col: 10   | Freq: 1
+  Letter                    | UNKNOWN    | Line: 24    Col: 1    | Freq: 1
+  A                         | UNKNOWN    | Line: 24    Col: 11   | Freq: 1
+  Newline                   | UNKNOWN    | Line: 25    Col: 1    | Freq: 1
+  Tab                       | UNKNOWN    | Line: 26    Col: 1    | Freq: 2
+  Valid_number              | UNKNOWN    | Line: 29    Col: 1    | Freq: 1
+  Invalid_string            | UNKNOWN    | Line: 30    Col: 1    | Freq: 1
+  Valid_bool                | UNKNOWN    | Line: 31    Col: 1    | Freq: 1
+  Invalid_char              | UNKNOWN    | Line: 32    Col: 1    | Freq: 1
+  Escaped1                  | UNKNOWN    | Line: 35    Col: 1    | Freq: 1
+  Line1                     | UNKNOWN    | Line: 35    Col: 13   | Freq: 1
+  Line2                     | UNKNOWN    | Line: 35    Col: 20   | Freq: 1
+  Escaped2                  | UNKNOWN    | Line: 36    Col: 1    | Freq: 1
+  Escaped3                  | UNKNOWN    | Line: 37    Col: 1    | Freq: 1
+  Escaped4                  | UNKNOWN    | Line: 38    Col: 1    | Freq: 1
+  Escaped5                  | UNKNOWN    | Line: 39    Col: 1    | Freq: 1
+╚══════════════════════════════════════════════════════════════╝
+
 
 ERROR REPORT:
-ErrorHandler@214c265e
+
+╔══════════════════════════════════════════════════════════════╗
+║                     LEXICAL ERROR REPORT                    ║
+╠══════════════════════════════════════════════════════════════╣
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 11   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 23   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 8    | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 14   | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 15   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 17   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 19   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 20   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 21   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 22   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 23   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 9    | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 14   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 15   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 16   | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 17   | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 19   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 20   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 21   | lexeme: "h              " | Character 'h' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 22   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 23   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 24   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 25   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 26   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 27   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 28   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 24   Col: 10   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 24   Col: 12   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 25   Col: 11   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 25   Col: 12   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 25   Col: 13   | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 25   Col: 14   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 26   Col: 7    | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 26   Col: 8    | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 26   Col: 9    | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 26   Col: 10   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 30   Col: 18   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 30   Col: 19   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 30   Col: 20   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 30   Col: 21   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 30   Col: 22   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 30   Col: 23   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 32   Col: 16   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 32   Col: 17   | lexeme: "x              " | Character 'x' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 32   Col: 18   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 12   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 18   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 19   | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 25   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 12   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 16   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 17   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 18   | lexeme: "h              " | Character 'h' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 19   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 20   | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 21   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 36   Col: 22   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 12   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 18   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 19   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 20   | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 21   | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 22   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 23   | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 24   | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 25   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 26   | lexeme: ""              " | Character '"' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 38   Col: 12   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 38   Col: 13   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 38   Col: 14   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 39   Col: 12   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 39   Col: 13   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 39   Col: 14   | lexeme: "'              " | Character ''' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 39   Col: 15   | lexeme: "'              " | Character ''' is not a valid token start
+
+  Total errors: 74
+╚══════════════════════════════════════════════════════════════╝
+
 
 
 
@@ -1594,10 +1874,187 @@ STATISTICS:
 
 
 SYMBOL TABLE:
-SymbolTable@448139f0
+
+╔══════════════════════════════════════════════════════════════╗
+║                        SYMBOL TABLE                         ║
+╠══════════════════════════════════════════════════════════════╣
+  Identifier                | Type       | First Seen     | Freq
+  ────────────────────────────────────────────────────────────
+  Email                     | UNKNOWN    | Line: 9     Col: 1    | Freq: 1
+  Price                     | UNKNOWN    | Line: 10    Col: 1    | Freq: 1
+  Variable                  | UNKNOWN    | Line: 11    Col: 1    | Freq: 2
+  Test                      | UNKNOWN    | Line: 12    Col: 1    | Freq: 2
+  Bad_float1                | UNKNOWN    | Line: 26    Col: 1    | Freq: 1
+  Bad_float2                | UNKNOWN    | Line: 27    Col: 1    | Freq: 1
+  Bad_exp1                  | UNKNOWN    | Line: 28    Col: 1    | Freq: 1
+  Bad_exp2                  | UNKNOWN    | Line: 29    Col: 1    | Freq: 1
+  Bad_exp3                  | UNKNOWN    | Line: 30    Col: 1    | Freq: 1
+  This                      | UNKNOWN    | Line: 35    Col: 3    | Freq: 1
+  Value                     | UNKNOWN    | Line: 36    Col: 1    | Freq: 2
+  Another                   | UNKNOWN    | Line: 37    Col: 3    | Freq: 1
+  Result1                   | UNKNOWN    | Line: 42    Col: 1    | Freq: 1
+  X                         | UNKNOWN    | Line: 42    Col: 12   | Freq: 2
+  Y                         | UNKNOWN    | Line: 42    Col: 16   | Freq: 2
+  Result2                   | UNKNOWN    | Line: 43    Col: 1    | Freq: 1
+  A                         | UNKNOWN    | Line: 43    Col: 12   | Freq: 2
+  B                         | UNKNOWN    | Line: 43    Col: 16   | Freq: 2
+  Calc                      | UNKNOWN    | Line: 50    Col: 1    | Freq: 1
+  M                         | UNKNOWN    | Line: 50    Col: 8    | Freq: 1
+  N                         | UNKNOWN    | Line: 50    Col: 12   | Freq: 1
+  Other                     | UNKNOWN    | Line: 51    Col: 1    | Freq: 1
+  P                         | UNKNOWN    | Line: 51    Col: 9    | Freq: 1
+  Q                         | UNKNOWN    | Line: 51    Col: 13   | Freq: 1
+  Greek                     | UNKNOWN    | Line: 56    Col: 1    | Freq: 1
+  Euro                      | UNKNOWN    | Line: 57    Col: 1    | Freq: 1
+  Degree                    | UNKNOWN    | Line: 58    Col: 1    | Freq: 1
+  Incomplete1               | UNKNOWN    | Line: 63    Col: 1    | Freq: 1
+  Incomplete2               | UNKNOWN    | Line: 64    Col: 1    | Freq: 1
+  Incomplete3               | UNKNOWN    | Line: 65    Col: 1    | Freq: 1
+  Bad1                      | UNKNOWN    | Line: 70    Col: 1    | Freq: 1
+  Bad2                      | UNKNOWN    | Line: 71    Col: 1    | Freq: 1
+  Bad3                      | UNKNOWN    | Line: 72    Col: 1    | Freq: 1
+  Valid1                    | UNKNOWN    | Line: 77    Col: 1    | Freq: 1
+  Invalid1                  | UNKNOWN    | Line: 78    Col: 1    | Freq: 1
+  Valid2                    | UNKNOWN    | Line: 79    Col: 1    | Freq: 1
+  Invalid2                  | UNKNOWN    | Line: 80    Col: 1    | Freq: 1
+  Valid3                    | UNKNOWN    | Line: 81    Col: 1    | Freq: 1
+╚══════════════════════════════════════════════════════════════╝
+
 
 ERROR REPORT:
-ErrorHandler@7cca494b
+
+╔══════════════════════════════════════════════════════════════╗
+║                     LEXICAL ERROR REPORT                    ║
+╠══════════════════════════════════════════════════════════════╣
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 9    | lexeme: "u              " | Character 'u' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 10   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 11   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 12   | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 13   | lexeme: "@              " | Character '@' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 14   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 15   | lexeme: "x              " | Character 'x' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 16   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 17   | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 18   | lexeme: "p              " | Character 'p' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 19   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 20   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 21   | lexeme: ".              " | Character '.' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 22   | lexeme: "c              " | Character 'c' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 23   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 9    Col: 24   | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 10   Col: 9    | lexeme: "$              " | Character '$' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 11   Col: 9    | lexeme: "@              " | Character '@' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 12   Col: 5    | lexeme: "$              " | Character '$' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 12   Col: 6    | lexeme: "v              " | Character 'v' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 12   Col: 7    | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 12   Col: 8    | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 1    | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 2    | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 3    | lexeme: "w              " | Character 'w' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 4    | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 5    | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 6    | lexeme: "c              " | Character 'c' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 7    | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 8    | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 17   Col: 9    | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 18   Col: 1    | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 18   Col: 2    | lexeme: "y              " | Character 'y' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 1    | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 2    | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 3    | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 4    | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 19   Col: 5    | lexeme: "_              " | Character '_' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 1    | lexeme: "_              " | Character '_' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 2    | lexeme: "u              " | Character 'u' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 3    | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 4    | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 5    | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 6    | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 7    | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 8    | lexeme: "c              " | Character 'c' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 9    | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 10   | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 20   Col: 11   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 2    | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 3    | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 4    | lexeme: "v              " | Character 'v' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 5    | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 6    | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 7    | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 21   Col: 8    | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 26   Col: 15   | lexeme: ".              " | Character '.' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 27   Col: 14   | lexeme: ".              " | Character '.' is not a valid token start
+[LEXICAL ERROR] MALFORMED_FLOAT           at Line: 28   Col: 12   | lexeme: "1.5e           " | Float has more than 6 decimal places or missing fraction digits
+[LEXICAL ERROR] MALFORMED_FLOAT           at Line: 29   Col: 12   | lexeme: "2.0E+          " | Float has more than 6 decimal places or missing fraction digits
+[LEXICAL ERROR] MALFORMED_FLOAT           at Line: 30   Col: 12   | lexeme: "3.14e-         " | Float has more than 6 decimal places or missing fraction digits
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 1    | lexeme: "#              " | Character '#' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 8    | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 9    | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 11   | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 12   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 13   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 15   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 17   | lexeme: "v              " | Character 'v' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 18   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 19   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 20   | lexeme: "i              " | Character 'i' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 21   | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 23   | lexeme: "c              " | Character 'c' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 24   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 25   | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 26   | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 27   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 28   | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 35   Col: 29   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 1    | lexeme: "#              " | Character '#' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 11   | lexeme: "b              " | Character 'b' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 12   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 13   | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 15   | lexeme: "c              " | Character 'c' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 16   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 17   | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 18   | lexeme: "m              " | Character 'm' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 19   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 20   | lexeme: "n              " | Character 'n' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 37   Col: 21   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 42   Col: 14   | lexeme: "&              " | Character '&' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 43   Col: 14   | lexeme: "|              " | Character '|' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 48   Col: 11   | lexeme: "~              " | Character '~' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 49   Col: 10   | lexeme: "^              " | Character '^' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 50   Col: 10   | lexeme: "`              " | Character '`' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 51   Col: 11   | lexeme: "\              " | Character '\' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 56   Col: 9    | lexeme: "α              " | Character 'α' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 57   Col: 8    | lexeme: "€              " | Character '€' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 58   Col: 12   | lexeme: "°              " | Character '°' is not a valid token start
+[LEXICAL ERROR] MALFORMED_FLOAT           at Line: 63   Col: 15   | lexeme: "10.5e          " | Float has more than 6 decimal places or missing fraction digits
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 70   Col: 8    | lexeme: ".              " | Character '.' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 70   Col: 9    | lexeme: ".              " | Character '.' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 70   Col: 10   | lexeme: ".              " | Character '.' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 12   | lexeme: "h              " | Character 'h' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 13   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 14   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 15   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 16   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 17   | lexeme: "@              " | Character '@' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 18   | lexeme: "w              " | Character 'w' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 19   | lexeme: "o              " | Character 'o' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 20   | lexeme: "r              " | Character 'r' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 21   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 78   Col: 22   | lexeme: "d              " | Character 'd' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 12   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 13   | lexeme: "e              " | Character 'e' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 14   | lexeme: "s              " | Character 's' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 15   | lexeme: "t              " | Character 't' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 16   | lexeme: "$              " | Character '$' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 17   | lexeme: "v              " | Character 'v' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 18   | lexeme: "a              " | Character 'a' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 19   | lexeme: "l              " | Character 'l' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 20   | lexeme: "u              " | Character 'u' is not a valid token start
+[LEXICAL ERROR] INVALID_CHARACTER         at Line: 80   Col: 21   | lexeme: "e              " | Character 'e' is not a valid token start
+
+  Total errors: 125
+╚══════════════════════════════════════════════════════════════╝
+
 
 
 
@@ -1854,10 +2311,36 @@ STATISTICS:
 
 
 SYMBOL TABLE:
-SymbolTable@7ba4f24f
+
+╔══════════════════════════════════════════════════════════════╗
+║                        SYMBOL TABLE                         ║
+╠══════════════════════════════════════════════════════════════╣
+  Identifier                | Type       | First Seen     | Freq
+  ────────────────────────────────────────────────────────────
+  Counter                   | UNKNOWN    | Line: 14    Col: 1    | Freq: 1
+  Sum                       | UNKNOWN    | Line: 17    Col: 1    | Freq: 1
+  X                         | UNKNOWN    | Line: 22    Col: 1    | Freq: 2
+  Y                         | UNKNOWN    | Line: 23    Col: 1    | Freq: 2
+  Z                         | UNKNOWN    | Line: 24    Col: 1    | Freq: 1
+  Value                     | UNKNOWN    | Line: 33    Col: 1    | Freq: 1
+  Total                     | UNKNOWN    | Line: 47    Col: 1    | Freq: 1
+  A                         | UNKNOWN    | Line: 58    Col: 1    | Freq: 2
+  B                         | UNKNOWN    | Line: 60    Col: 1    | Freq: 2
+  C                         | UNKNOWN    | Line: 62    Col: 1    | Freq: 2
+  Result                    | UNKNOWN    | Line: 64    Col: 1    | Freq: 1
+  Var1                      | UNKNOWN    | Line: 71    Col: 1    | Freq: 2
+  Var2                      | UNKNOWN    | Line: 73    Col: 1    | Freq: 2
+  Var3                      | UNKNOWN    | Line: 75    Col: 1    | Freq: 2
+  Sum_result                | UNKNOWN    | Line: 77    Col: 1    | Freq: 1
+  Actual_value              | UNKNOWN    | Line: 86    Col: 1    | Freq: 1
+  Final                     | UNKNOWN    | Line: 92    Col: 1    | Freq: 1
+╚══════════════════════════════════════════════════════════════╝
+
 
 ERROR REPORT:
-ErrorHandler@3b9a45b3
+
+✔  No lexical errors detected.
+
 
 
 

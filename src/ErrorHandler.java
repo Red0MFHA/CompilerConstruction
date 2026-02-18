@@ -11,6 +11,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ErrorHandler {
+    //for file output to string
+    @Override
+    public String toString() {
+
+        StringBuilder sb = new StringBuilder();
+
+        if (errors.isEmpty()) {
+            sb.append("\n✔  No lexical errors detected.\n");
+            return sb.toString();
+        }
+
+        sb.append("\n╔══════════════════════════════════════════════════════════════╗\n");
+        sb.append(  "║                     LEXICAL ERROR REPORT                    ║\n");
+        sb.append(  "╠══════════════════════════════════════════════════════════════╣\n");
+
+        for (LexicalError e : errors) {
+            sb.append(e.toString()).append("\n");
+        }
+
+        sb.append(String.format("%n  Total errors: %d%n", errors.size()));
+        sb.append("╚══════════════════════════════════════════════════════════════╝\n");
+
+        return sb.toString();
+    }
+
 
     // ── Error categories ─────────────────────────────────────────────────
     public enum ErrorType {

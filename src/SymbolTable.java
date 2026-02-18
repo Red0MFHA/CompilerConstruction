@@ -9,6 +9,28 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class SymbolTable {
+    //for file output
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("\n╔══════════════════════════════════════════════════════════════╗\n");
+        sb.append(  "║                        SYMBOL TABLE                         ║\n");
+        sb.append(  "╠══════════════════════════════════════════════════════════════╣\n");
+
+        sb.append(String.format("  %-25s | %-10s | %-14s | %s%n",
+                "Identifier", "Type", "First Seen", "Freq"));
+        sb.append("  ").append("─".repeat(60)).append("\n");
+
+        for (Entry e : table.values()) {
+            sb.append(e.toString()).append("\n");
+        }
+
+        sb.append("╚══════════════════════════════════════════════════════════════╝\n");
+
+        return sb.toString();
+    }
+
 
     // ── Inner entry class ────────────────────────────────────────────────
     public static class Entry {
