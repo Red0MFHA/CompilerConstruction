@@ -139,19 +139,33 @@ TOKENS:
 ", Line: 45, Col: 1>
   <IDENTIFIER, "Is_active", Line: 46, Col: 1>
   <ASSIGN_OP, "=", Line: 46, Col: 11>
-  <BOOLEAN, "TRUE", Line: 46, Col: 13>
+  <IDENTIFIER, "T", Line: 46, Col: 13>
+  <IDENTIFIER, "R", Line: 46, Col: 14>
+  <IDENTIFIER, "U", Line: 46, Col: 15>
+  <IDENTIFIER, "E", Line: 46, Col: 16>
   <PUNCTUATOR, ";", Line: 46, Col: 17>
   <IDENTIFIER, "Is_done", Line: 47, Col: 1>
   <ASSIGN_OP, "=", Line: 47, Col: 9>
-  <BOOLEAN, "FALSE", Line: 47, Col: 11>
+  <IDENTIFIER, "F", Line: 47, Col: 11>
+  <IDENTIFIER, "A", Line: 47, Col: 12>
+  <IDENTIFIER, "L", Line: 47, Col: 13>
+  <IDENTIFIER, "S", Line: 47, Col: 14>
+  <IDENTIFIER, "E", Line: 47, Col: 15>
   <PUNCTUATOR, ";", Line: 47, Col: 16>
   <IDENTIFIER, "Flag", Line: 48, Col: 1>
   <ASSIGN_OP, "=", Line: 48, Col: 6>
-  <BOOLEAN, "TRUE", Line: 48, Col: 8>
+  <IDENTIFIER, "T", Line: 48, Col: 8>
+  <IDENTIFIER, "R", Line: 48, Col: 9>
+  <IDENTIFIER, "U", Line: 48, Col: 10>
+  <IDENTIFIER, "E", Line: 48, Col: 11>
   <PUNCTUATOR, ";", Line: 48, Col: 12>
   <IDENTIFIER, "Status", Line: 49, Col: 1>
   <ASSIGN_OP, "=", Line: 49, Col: 8>
-  <BOOLEAN, "FALSE", Line: 49, Col: 10>
+  <IDENTIFIER, "F", Line: 49, Col: 10>
+  <IDENTIFIER, "A", Line: 49, Col: 11>
+  <IDENTIFIER, "L", Line: 49, Col: 12>
+  <IDENTIFIER, "S", Line: 49, Col: 13>
+  <IDENTIFIER, "E", Line: 49, Col: 14>
   <PUNCTUATOR, ";", Line: 49, Col: 15>
   <COMMENT, "## ───────────────────────────────────────────────────────────
 ", Line: 51, Col: 1>
@@ -390,20 +404,19 @@ STATISTICS:
 ╔══════════════════════════════════════════════════════════════╗
 ║                         STATISTICS                          ║
 ╠══════════════════════════════════════════════════════════════╣
-  Total tokens            : 335
+  Total tokens            : 349
   Lines processed         : 106
   Comments removed        : 36
-  Unique identifiers      : 64
+  Unique identifiers      : 67
   Lexical errors          : 0
 
   Token breakdown:
   Type                  Count
   ──────────────────────────────
-  IDENTIFIER            92
+  IDENTIFIER            110
   INTEGER               26
   FLOAT                 5
   FLOAT_EXP             5
-  BOOLEAN               4
   ARITH_OP              6
   REL_OP                10
   LOGICAL_OP            3
@@ -446,12 +459,19 @@ SYMBOL TABLE:
   Large_num                 | UNKNOWN    | Line: 40    Col: 1    | Freq: 1
   Tiny_num                  | UNKNOWN    | Line: 41    Col: 1    | Freq: 1
   Is_active                 | UNKNOWN    | Line: 46    Col: 1    | Freq: 1
+  T                         | UNKNOWN    | Line: 46    Col: 13   | Freq: 3
+  R                         | UNKNOWN    | Line: 46    Col: 14   | Freq: 4
+  U                         | UNKNOWN    | Line: 46    Col: 15   | Freq: 3
+  E                         | UNKNOWN    | Line: 46    Col: 16   | Freq: 4
   Is_done                   | UNKNOWN    | Line: 47    Col: 1    | Freq: 1
+  F                         | UNKNOWN    | Line: 47    Col: 11   | Freq: 2
+  A                         | UNKNOWN    | Line: 47    Col: 12   | Freq: 6
+  L                         | UNKNOWN    | Line: 47    Col: 13   | Freq: 2
+  S                         | UNKNOWN    | Line: 47    Col: 14   | Freq: 4
   Flag                      | UNKNOWN    | Line: 48    Col: 1    | Freq: 2
   Status                    | UNKNOWN    | Line: 49    Col: 1    | Freq: 1
   Result1                   | UNKNOWN    | Line: 54    Col: 1    | Freq: 1
   Result2                   | UNKNOWN    | Line: 55    Col: 1    | Freq: 1
-  A                         | UNKNOWN    | Line: 55    Col: 12   | Freq: 4
   B                         | UNKNOWN    | Line: 55    Col: 17   | Freq: 4
   Result3                   | UNKNOWN    | Line: 56    Col: 1    | Freq: 1
   M                         | UNKNOWN    | Line: 56    Col: 12   | Freq: 2
@@ -460,11 +480,7 @@ SYMBOL TABLE:
   P                         | UNKNOWN    | Line: 57    Col: 12   | Freq: 2
   Q                         | UNKNOWN    | Line: 57    Col: 17   | Freq: 2
   Result5                   | UNKNOWN    | Line: 58    Col: 1    | Freq: 1
-  R                         | UNKNOWN    | Line: 58    Col: 12   | Freq: 2
-  S                         | UNKNOWN    | Line: 58    Col: 16   | Freq: 2
   Result6                   | UNKNOWN    | Line: 59    Col: 1    | Freq: 1
-  T                         | UNKNOWN    | Line: 59    Col: 12   | Freq: 1
-  U                         | UNKNOWN    | Line: 59    Col: 17   | Freq: 1
   Sum                       | UNKNOWN    | Line: 64    Col: 1    | Freq: 1
   Difference                | UNKNOWN    | Line: 65    Col: 1    | Freq: 1
   Product                   | UNKNOWN    | Line: 66    Col: 1    | Freq: 1
@@ -959,7 +975,10 @@ TOKENS:
   <PUNCTUATOR, "(", Line: 53, Col: 44>
   <IDENTIFIER, "Is_special", Line: 53, Col: 45>
   <REL_OP, "==", Line: 53, Col: 56>
-  <BOOLEAN, "TRUE", Line: 53, Col: 59>
+  <IDENTIFIER, "T", Line: 53, Col: 59>
+  <IDENTIFIER, "R", Line: 53, Col: 60>
+  <IDENTIFIER, "U", Line: 53, Col: 61>
+  <IDENTIFIER, "E", Line: 53, Col: 62>
   <PUNCTUATOR, ")", Line: 53, Col: 63>
   <PUNCTUATOR, ";", Line: 53, Col: 64>
   <IDENTIFIER, "Can_proceed", Line: 54, Col: 1>
@@ -981,7 +1000,10 @@ TOKENS:
   <PUNCTUATOR, "(", Line: 54, Col: 51>
   <IDENTIFIER, "Override", Line: 54, Col: 52>
   <REL_OP, "==", Line: 54, Col: 61>
-  <BOOLEAN, "TRUE", Line: 54, Col: 64>
+  <IDENTIFIER, "T", Line: 54, Col: 64>
+  <IDENTIFIER, "R", Line: 54, Col: 65>
+  <IDENTIFIER, "U", Line: 54, Col: 66>
+  <IDENTIFIER, "E", Line: 54, Col: 67>
   <PUNCTUATOR, ")", Line: 54, Col: 68>
   <PUNCTUATOR, ";", Line: 54, Col: 69>
   <IDENTIFIER, "Should_retry", Line: 55, Col: 1>
@@ -1231,7 +1253,7 @@ STATISTICS:
 ╔══════════════════════════════════════════════════════════════╗
 ║                         STATISTICS                          ║
 ╠══════════════════════════════════════════════════════════════╣
-  Total tokens            : 698
+  Total tokens            : 704
   Lines processed         : 78
   Comments removed        : 20
   Unique identifiers      : 86
@@ -1240,10 +1262,9 @@ STATISTICS:
   Token breakdown:
   Type                  Count
   ──────────────────────────────
-  IDENTIFIER            196
+  IDENTIFIER            204
   INTEGER               34
   FLOAT                 2
-  BOOLEAN               2
   ARITH_OP              94
   REL_OP                27
   LOGICAL_OP            21
@@ -1267,7 +1288,7 @@ SYMBOL TABLE:
   B                         | UNKNOWN    | Line: 7     Col: 16   | Freq: 15
   C                         | UNKNOWN    | Line: 7     Col: 22   | Freq: 13
   D                         | UNKNOWN    | Line: 7     Col: 26   | Freq: 10
-  E                         | UNKNOWN    | Line: 7     Col: 31   | Freq: 8
+  E                         | UNKNOWN    | Line: 7     Col: 31   | Freq: 10
   Result2                   | UNKNOWN    | Line: 8     Col: 1    | Freq: 1
   X                         | UNKNOWN    | Line: 8     Col: 13   | Freq: 11
   Y                         | UNKNOWN    | Line: 8     Col: 24   | Freq: 11
@@ -1276,7 +1297,7 @@ SYMBOL TABLE:
   N                         | UNKNOWN    | Line: 9     Col: 16   | Freq: 3
   P                         | UNKNOWN    | Line: 9     Col: 22   | Freq: 3
   Q                         | UNKNOWN    | Line: 9     Col: 26   | Freq: 3
-  R                         | UNKNOWN    | Line: 9     Col: 32   | Freq: 3
+  R                         | UNKNOWN    | Line: 9     Col: 32   | Freq: 5
   S                         | UNKNOWN    | Line: 9     Col: 36   | Freq: 3
   Deep                      | UNKNOWN    | Line: 12    Col: 1    | Freq: 1
   Complex_calc              | UNKNOWN    | Line: 13    Col: 1    | Freq: 1
@@ -1293,8 +1314,8 @@ SYMBOL TABLE:
   F                         | UNKNOWN    | Line: 26    Col: 38   | Freq: 4
   Logic2                    | UNKNOWN    | Line: 27    Col: 1    | Freq: 1
   Logic3                    | UNKNOWN    | Line: 28    Col: 1    | Freq: 1
-  T                         | UNKNOWN    | Line: 28    Col: 38   | Freq: 1
-  U                         | UNKNOWN    | Line: 28    Col: 43   | Freq: 1
+  T                         | UNKNOWN    | Line: 28    Col: 38   | Freq: 3
+  U                         | UNKNOWN    | Line: 28    Col: 43   | Freq: 3
   Total                     | UNKNOWN    | Line: 31    Col: 1    | Freq: 5
   G                         | UNKNOWN    | Line: 35    Col: 11   | Freq: 3
   H                         | UNKNOWN    | Line: 35    Col: 15   | Freq: 3
@@ -1437,7 +1458,10 @@ TOKENS:
   <PUNCTUATOR, ";", Line: 30, Col: 24>
   <IDENTIFIER, "Valid_bool", Line: 31, Col: 1>
   <ASSIGN_OP, "=", Line: 31, Col: 12>
-  <BOOLEAN, "TRUE", Line: 31, Col: 14>
+  <IDENTIFIER, "T", Line: 31, Col: 14>
+  <IDENTIFIER, "R", Line: 31, Col: 15>
+  <IDENTIFIER, "U", Line: 31, Col: 16>
+  <IDENTIFIER, "E", Line: 31, Col: 17>
   <PUNCTUATOR, ";", Line: 31, Col: 18>
   <IDENTIFIER, "Invalid_char", Line: 32, Col: 1>
   <ASSIGN_OP, "=", Line: 32, Col: 14>
@@ -1476,18 +1500,17 @@ STATISTICS:
 ╔══════════════════════════════════════════════════════════════╗
 ║                         STATISTICS                          ║
 ╠══════════════════════════════════════════════════════════════╣
-  Total tokens            : 83
+  Total tokens            : 86
   Lines processed         : 43
   Comments removed        : 18
-  Unique identifiers      : 24
+  Unique identifiers      : 28
   Lexical errors          : 74
 
   Token breakdown:
   Type                  Count
   ──────────────────────────────
-  IDENTIFIER            26
+  IDENTIFIER            30
   INTEGER               3
-  BOOLEAN               1
   ASSIGN_OP             17
   PUNCTUATOR            17
   COMMENT               18
@@ -1518,6 +1541,10 @@ SYMBOL TABLE:
   Valid_number              | UNKNOWN    | Line: 29    Col: 1    | Freq: 1
   Invalid_string            | UNKNOWN    | Line: 30    Col: 1    | Freq: 1
   Valid_bool                | UNKNOWN    | Line: 31    Col: 1    | Freq: 1
+  T                         | UNKNOWN    | Line: 31    Col: 14   | Freq: 1
+  R                         | UNKNOWN    | Line: 31    Col: 15   | Freq: 1
+  U                         | UNKNOWN    | Line: 31    Col: 16   | Freq: 1
+  E                         | UNKNOWN    | Line: 31    Col: 17   | Freq: 1
   Invalid_char              | UNKNOWN    | Line: 32    Col: 1    | Freq: 1
   Escaped1                  | UNKNOWN    | Line: 35    Col: 1    | Freq: 1
   Line1                     | UNKNOWN    | Line: 35    Col: 13   | Freq: 1
@@ -1828,7 +1855,10 @@ TOKENS:
   <PUNCTUATOR, ";", Line: 78, Col: 23>
   <IDENTIFIER, "Valid2", Line: 79, Col: 1>
   <ASSIGN_OP, "=", Line: 79, Col: 8>
-  <BOOLEAN, "TRUE", Line: 79, Col: 10>
+  <IDENTIFIER, "T", Line: 79, Col: 10>
+  <IDENTIFIER, "R", Line: 79, Col: 11>
+  <IDENTIFIER, "U", Line: 79, Col: 12>
+  <IDENTIFIER, "E", Line: 79, Col: 13>
   <PUNCTUATOR, ";", Line: 79, Col: 14>
   <IDENTIFIER, "Invalid2", Line: 80, Col: 1>
   <ASSIGN_OP, "=", Line: 80, Col: 10>
@@ -1850,19 +1880,18 @@ STATISTICS:
 ╔══════════════════════════════════════════════════════════════╗
 ║                         STATISTICS                          ║
 ╠══════════════════════════════════════════════════════════════╣
-  Total tokens            : 182
+  Total tokens            : 185
   Lines processed         : 85
   Comments removed        : 36
-  Unique identifiers      : 38
+  Unique identifiers      : 42
   Lexical errors          : 125
 
   Token breakdown:
   Type                  Count
   ──────────────────────────────
-  IDENTIFIER            45
+  IDENTIFIER            49
   INTEGER               15
   FLOAT                 1
-  BOOLEAN               1
   ARITH_OP              2
   REL_OP                6
   ASSIGN_OP             35
@@ -1916,6 +1945,10 @@ SYMBOL TABLE:
   Valid1                    | UNKNOWN    | Line: 77    Col: 1    | Freq: 1
   Invalid1                  | UNKNOWN    | Line: 78    Col: 1    | Freq: 1
   Valid2                    | UNKNOWN    | Line: 79    Col: 1    | Freq: 1
+  T                         | UNKNOWN    | Line: 79    Col: 10   | Freq: 1
+  R                         | UNKNOWN    | Line: 79    Col: 11   | Freq: 1
+  U                         | UNKNOWN    | Line: 79    Col: 12   | Freq: 1
+  E                         | UNKNOWN    | Line: 79    Col: 13   | Freq: 1
   Invalid2                  | UNKNOWN    | Line: 80    Col: 1    | Freq: 1
   Valid3                    | UNKNOWN    | Line: 81    Col: 1    | Freq: 1
 ╚══════════════════════════════════════════════════════════════╝
@@ -2275,7 +2308,10 @@ TOKENS:
 ", Line: 91, Col: 1>
   <IDENTIFIER, "Final", Line: 92, Col: 1>
   <ASSIGN_OP, "=", Line: 92, Col: 7>
-  <BOOLEAN, "TRUE", Line: 92, Col: 9>
+  <IDENTIFIER, "T", Line: 92, Col: 9>
+  <IDENTIFIER, "R", Line: 92, Col: 10>
+  <IDENTIFIER, "U", Line: 92, Col: 11>
+  <IDENTIFIER, "E", Line: 92, Col: 12>
   <PUNCTUATOR, ";", Line: 92, Col: 13>
   <COMMENT, "## This is the last comment in the file
 ", Line: 93, Col: 1>
@@ -2290,18 +2326,17 @@ STATISTICS:
 ╔══════════════════════════════════════════════════════════════╗
 ║                         STATISTICS                          ║
 ╠══════════════════════════════════════════════════════════════╣
-  Total tokens            : 147
+  Total tokens            : 150
   Lines processed         : 96
   Comments removed        : 68
-  Unique identifiers      : 17
+  Unique identifiers      : 21
   Lexical errors          : 0
 
   Token breakdown:
   Type                  Count
   ──────────────────────────────
-  IDENTIFIER            25
+  IDENTIFIER            29
   INTEGER               13
-  BOOLEAN               1
   ARITH_OP              5
   ASSIGN_OP             17
   PUNCTUATOR            17
@@ -2334,6 +2369,10 @@ SYMBOL TABLE:
   Sum_result                | UNKNOWN    | Line: 77    Col: 1    | Freq: 1
   Actual_value              | UNKNOWN    | Line: 86    Col: 1    | Freq: 1
   Final                     | UNKNOWN    | Line: 92    Col: 1    | Freq: 1
+  T                         | UNKNOWN    | Line: 92    Col: 9    | Freq: 1
+  R                         | UNKNOWN    | Line: 92    Col: 10   | Freq: 1
+  U                         | UNKNOWN    | Line: 92    Col: 11   | Freq: 1
+  E                         | UNKNOWN    | Line: 92    Col: 12   | Freq: 1
 ╚══════════════════════════════════════════════════════════════╝
 
 
